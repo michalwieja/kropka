@@ -1,0 +1,32 @@
+#s1 {
+  height: 1000px;
+  position: relative;
+}
+
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.ind {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+}
+
+.dot {
+  height: 20vh;
+  aspect-ratio: 1;
+  background-color: $primaryGreen;
+  border-radius: 50%;
+}
