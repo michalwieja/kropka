@@ -2,6 +2,7 @@
 @import "header";
 @import "footer";
 @import "home";
+@import "content-with-image";
 
 * {
   margin: 0;
@@ -12,17 +13,17 @@
 
 body {
   transition: .5s;
-
-}
-
-.site {
-  padding-block: $headerHeight;
 }
 
 .container {
   width: calc(min(1320px, 90%));
   margin-inline: auto;
   overflow-x: hidden;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 

@@ -8,8 +8,8 @@ export default [
     name: 'About'
   },
   {
-    path: '/store',
-    name: 'Sklep'
+    path: '/harmonogram',
+    name: 'Harmonogram'
   },
 
   {
