@@ -1,6 +1,6 @@
 .schedule {
   .group-label {
-    background-color: $primaryGreen;
+    background-color: $secondaryGreen;
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px;
@@ -29,7 +29,6 @@
 
   .event-content-row {
     display: flex;
-
     gap: 10px;
   }
 }
