@@ -1,5 +1,13 @@
+export const scheduleGroupLabel = {
+  younger: 'ZAJĘCIA DLA MŁODSZYCH',
+  older: 'ZAJĘCIA DLA STARSZYCH',
+  all: 'ZAJĘCIA DLA WSZYSTKICH',
+  senior: 'ZAJĘCIA DLA SENIORÓW',
+  music: 'MUZYKA'
+}
+
 export const scheduleConfig = [{
-  label: 'ZAJĘCIA DLA MŁODSZYCH',
+  label: scheduleGroupLabel.younger,
   children: [{
     label: 'Malarstwo (wiek: 7-11 lat)',
     event: [{
@@ -34,7 +42,7 @@ export const scheduleConfig = [{
   }]
 },
 {
-  label: 'ZAJĘCIA DLA STARSZYCH',
+  label: scheduleGroupLabel.older,
   children: [{
     label: 'Malarstwo (wiek: 12+)',
     event: [{
@@ -80,7 +88,7 @@ export const scheduleConfig = [{
   }]
 },
 {
-  label: 'ZAJĘCIA DLA WSZYSTKICH',
+  label: scheduleGroupLabel.all,
   children: [{
     label: 'Origami',
     event: [{
@@ -121,7 +129,7 @@ export const scheduleConfig = [{
   }]
 },
 {
-  label: 'MUZYKA',
+  label: scheduleGroupLabel.music,
   children: [{
     label: 'Ukulele (gr. początkująca)',
     event: [{
@@ -179,7 +187,7 @@ export const scheduleConfig = [{
     }]
   }]
 }, {
-  label: 'ZAJĘCIA DLA SENIORÓW',
+  label: scheduleGroupLabel.senior,
   children: [{
     label: 'Ogród sztuk (zajęcia interdyscyplinarne)',
     event: [{

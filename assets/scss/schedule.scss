@@ -1,33 +1,47 @@
 .schedule {
-  .group-label {
+
+  &__filter {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+
+  }
+
+  &__header {
+    display: flex;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  &__group-label {
     background-color: $secondaryGreen;
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px;
   }
 
-  .event-row {
+  &__event-row {
     display: flex;
     padding: 10px;
   }
 
-  .event-row:not(:last-child) {
+  &__event-row:not(:last-child) {
     border-bottom: 1px solid gray;
   }
 
-  .event-label {
+  &__event-label {
     flex: 2;
   }
 
-  .event-content {
+  &__event-content {
     flex: 3;
     display: flex;
     flex-direction: column;
     gap: 10px;
-
   }
 
-  .event-content-row {
+  &__event-content-row {
     display: flex;
     gap: 10px;
   }

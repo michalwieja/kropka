@@ -1,15 +1,15 @@
 <template>
   <div>
     <div v-for="el in filteredItems" :key="el.label">
-      <div class="group-label">
+      <div class="schedule__group-label">
         {{ el.label }}
       </div>
-      <div v-for="child in el.children" :key="child.label" class="event-row">
-        <div class="event-label">
+      <div v-for="child in el.children" :key="child.label" class="schedule__event-row">
+        <div class="schedule__event-label">
           {{ child.label }}
         </div>
-        <div class="event-content">
-          <div v-for="event in child.event" :key="event.hour" class="event-content-row">
+        <div class="schedule__event-content">
+          <div v-for="event in child.event" :key="event.hour" class="schedule__event-content-row">
             <div style="flex: 1">
               {{ event.day }}
             </div>

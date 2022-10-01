@@ -1,10 +1,10 @@
 <template>
-  <div style="display: flex">
+  <div class="schedule__header">
     <div style="flex:2">
-      zajecia
+      zajęcia
     </div>
     <div style="flex: 1">
-      dzien
+      dzień
     </div>
     <div style="flex: 1">
       godziny
@@ -20,7 +20,3 @@ export default {
   name: 'ScheduleHeader'
 }
 </script>
-
-<style scoped>
-
-</style>
