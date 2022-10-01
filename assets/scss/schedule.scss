@@ -1,0 +1,35 @@
+.schedule {
+  .group-label {
+    background-color: $primaryGreen;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+  }
+
+  .event-row {
+    display: flex;
+    padding: 10px;
+  }
+
+  .event-row:not(:last-child) {
+    border-bottom: 1px solid gray;
+  }
+
+  .event-label {
+    flex: 2;
+  }
+
+  .event-content {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .event-content-row {
+    display: flex;
+
+    gap: 10px;
+  }
+}
