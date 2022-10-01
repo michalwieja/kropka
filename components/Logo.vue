@@ -3,14 +3,14 @@
     height="100%"
     style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
     version="1.1"
-    viewBox="0 0 3508 2481"
+    viewBox="0 0 2918 466"
     width="100%"
     xml:space="preserve"
     xmlns="http://www.w3.org/2000/svg"
     xmlns:serif="http://www.serif.com/"
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
-    <g transform="matrix(6.77635,0,0,6.77635,-5639.84,-2545.22)">
+    <g transform="matrix(6.77635,0,0,6.77635,-5935.11,-3522.91)">
       <g transform="matrix(1,0,0,1,-756.567,-110.534)">
         <g transform="matrix(104.167,0,0,104.167,1629.09,699.167)">
           <path

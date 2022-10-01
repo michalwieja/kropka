@@ -1,5 +1,5 @@
 <template>
-  <div class="site container" style="padding-top: 12vh; min-height: 100vh; ">
+  <div class="site container">
     <ScheduleFilter :handle-filter="handleFilter" />
     <ScheduleHeader />
     <Schedule :filtered-items="filteredItems" />

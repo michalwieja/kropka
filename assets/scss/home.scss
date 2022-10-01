@@ -1,36 +1,41 @@
-#s1 {
-  position: relative;
-  padding-block: $headerHeight;
-  background: url("./assets/img/kropka-hero-bg.jpg");
-  background-size: cover;
-  height: 100vh;
-
-}
-
-.section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .hero {
+  padding-top: $headerHeight;
   display: flex;
-  gap: 50px;
-  position: relative;
-  width: 100%;
+  height: 100vh;
+  
+  &__text {
+    flex: 1;
+    background-color: #fff;
+    padding-left: calc(calc(100vw - calc(min(1320px, 90%))) / 2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: flex-end;
+    padding-bottom: 20vh;
+  }
 
-}
+  &__title {
+    font-size: $fz50;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bold;
+    max-width: 300px;
+  }
 
-.buuble {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  letter-spacing: .4vw;
-  line-height: 150%;
-  gap: 2vw;
-  font-size: 1.5vw;
-  position: relative;
-  left: 10vw;
+  &__subtitle {
+    font-size: $fz30;
+    max-width: 300px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 20px;
+  }
+
+
+  &__photo {
+    flex: 2;
+    background-image: url("../../assets/img/kropka-hero-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
 }
