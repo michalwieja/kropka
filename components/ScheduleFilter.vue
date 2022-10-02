@@ -1,7 +1,7 @@
 <template>
   <div class="schedule__filter">
-    <Button :handle-click="()=>handleFilter('')" class="button" label="wszystko" />
-    <Button
+    <CustomButton :handle-click="()=>handleFilter('')" class="button" label="wszystko" />
+    <CustomButton
       v-for="(v,k) in scheduleGroupLabel"
       :key="k"
       :handle-click="()=>handleFilter(k)"
@@ -12,9 +12,11 @@
 
 <script>
 import { scheduleGroupLabel } from '../config/schedule.js'
+import CustomButton from './CustomButton.vue'
 
 export default {
   name: 'ScheduleFilter',
+  components: { CustomButton },
   props: ['handleFilter'],
   data () {
     return {

@@ -8,7 +8,8 @@
         miejsce dla dzieci i&nbsp;dorosłych
       </div>
       <div class="hero__buttons">
-        burrons
+        <CustomButton label="grafik" secondary />
+        <CustomButton label="zapisz się" />
       </div>
     </div>
     <div class="hero__photo" />
@@ -17,8 +18,12 @@
 
 <script>
 
+import CustomButton from '../components/CustomButton.vue'
+
 export default {
-  name: 'IndexPage'
+  name: 'IndexPage',
+  components: { CustomButton },
+  layout: 'hero'
 
 }
 </script>
