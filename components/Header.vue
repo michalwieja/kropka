@@ -20,7 +20,6 @@
               {{ link.name }}
             </NuxtLink>
           </div>
-          <Button label="Zapisz się" />
         </div>
         <div :class="{toggle:navActive}" class="burger" @click="handleBurgerClick">
           <div class="burger__line" />
@@ -35,14 +34,10 @@
 
 import anime from 'animejs'
 import menuLinks from '../config/menu.js'
-import Button from './Button.vue'
 
 export default {
   name: 'Header',
-  components: {
-    Button
-    // Logo
-  },
+  components: {},
   props: {
     transparent: {
       type: Boolean,

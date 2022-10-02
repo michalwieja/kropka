@@ -8,8 +8,7 @@
         miejsce dla dzieci i&nbsp;dorosłych
       </div>
       <div class="hero__buttons">
-        <Button :secondary="true" label="Grafik" />
-        <Button label="Zapisz się" />
+        burrons
       </div>
     </div>
     <div class="hero__photo" />
@@ -18,11 +17,8 @@
 
 <script>
 
-import Button from '../components/Button.vue'
-
 export default {
-  components: { Button },
-  layout: 'hero'
+  name: 'IndexPage'
 
 }
 </script>
