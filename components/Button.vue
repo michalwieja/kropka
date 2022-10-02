@@ -1,16 +1,12 @@
 <template>
-  <button class="button" @click="handleClick">
+  <div :class="{secondary}" class="button" @click="handleClick">
     {{ label }}
-  </button>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'Button',
-  props: ['label', 'handleClick']
+  props: ['label', 'handleClick', 'secondary']
 }
 </script>
-
-<style lang="scss" scoped>
-
-</style>

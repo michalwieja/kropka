@@ -8,7 +8,7 @@
         miejsce dla dzieci i&nbsp;dorosłych
       </div>
       <div class="hero__buttons">
-        <Button label="Harmonogram" />
+        <Button :secondary="true" label="Grafik" />
         <Button label="Zapisz się" />
       </div>
     </div>
@@ -21,7 +21,8 @@
 import Button from '../components/Button.vue'
 
 export default {
-  name: 'IndexPage',
-  components: { Button }
+  components: { Button },
+  layout: 'hero'
+
 }
 </script>

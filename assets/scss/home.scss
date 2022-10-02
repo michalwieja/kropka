@@ -2,7 +2,8 @@
   padding-top: $headerHeight;
   display: flex;
   height: 100vh;
-  
+  gap: 2vw;
+
   &__text {
     flex: 1;
     background-color: #fff;

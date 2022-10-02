@@ -1,11 +1,11 @@
 export default [
   {
     path: '/',
-    name: 'Home'
+    name: 'Start'
   },
   {
     path: '/about',
-    name: 'About'
+    name: 'O nas'
   },
   {
     path: '/harmonogram',
