@@ -1,7 +1,7 @@
 <template>
-  <div class="site container">
+  <div class="site container schedule">
+    <h2>Harmonogram</h2>
     <ScheduleFilter :handle-filter="handleFilter" />
-    <ScheduleHeader />
     <Schedule :filtered-items="filteredItems" />
   </div>
 </template>
@@ -10,14 +10,12 @@
 
 import { scheduleConfig, scheduleGroupLabel } from '../config/schedule.js'
 import ScheduleFilter from '../components/ScheduleFilter.vue'
-import ScheduleHeader from '../components/ScheduleHeader.vue'
 import Schedule from '../components/Schedule.vue'
 
 export default {
   name: 'Harmonogram',
   components: {
     Schedule,
-    ScheduleHeader,
     ScheduleFilter
   },
   data () {

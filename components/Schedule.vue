@@ -1,5 +1,6 @@
 <template>
   <div>
+    <ScheduleHeader />
     <div v-for="el in filteredItems" :key="el.label">
       <div class="schedule__group-label">
         {{ el.label }}

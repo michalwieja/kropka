@@ -1,0 +1,54 @@
+.price-list {
+
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+
+
+  &__header {
+    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 10px;
+  }
+
+  &__group {
+    background: $primaryGreen;
+    color: white;
+    padding: 10px;
+  }
+
+  &__event {
+    display: flex;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 10px;
+
+    &:not(:last-child) {
+      border-bottom: 1px solid gray;
+    }
+  }
+}
+
+
+.tooltip {
+  position: relative;
+  cursor: pointer;
+
+  &::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    bottom: 30px;
+    scale: 0;
+    transition: .3s;
+  }
+
+  &:hover:before {
+    scale: 1
+  }
+
+}

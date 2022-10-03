@@ -11,7 +11,10 @@ export default [
     path: '/harmonogram',
     name: 'Harmonogram'
   },
-
+  {
+    path: '/cennik',
+    name: 'Cennik'
+  },
   {
     path: '/contact',
     name: 'Kontakt'
