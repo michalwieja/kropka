@@ -5,7 +5,12 @@
     </h1>
     <div class="contact__wrapper">
       <div class="contact__box contact__box--map">
-        mapa
+        <GmapMap
+          :center="{lat:10, lng:10}"
+          :zoom="7"
+          map-type-id="terrain"
+          style="width: 100%; height: 100%"
+        />
       </div>
       <div class="contact__box contact__box--info">
         <h2>Dane kontaktowe</h2>
