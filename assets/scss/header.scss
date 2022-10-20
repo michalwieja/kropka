@@ -35,8 +35,14 @@
     justify-content: space-between;
     gap: 20px;
 
-    .nuxt-link-exact-active {
-      border-bottom: 1px solid #ddd;
+    .nuxt-link-exact-active::before {
+      position: absolute;
+      overflow: hidden;
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: $primaryGreen;
+      bottom: -2px;
     }
 
     &__links {
@@ -65,8 +71,8 @@
     }
 
     .nav-active {
-      //transform: translateX(0);
       z-index: 1;
+      transform: translateX(0);
     }
 
     &__link {
@@ -79,10 +85,21 @@
       transition: .5s;
       font-family: 'League Spartan', sans-serif;
       font-weight: bold;
+      position: relative;
 
+      &::before {
+        position: absolute;
+        overflow: hidden;
+        content: '';
+        width: 0;
+        height: 2px;
+        background: $primaryGreen;
+        bottom: -2px;
+        transition: .2s;
+      }
 
-      &:hover {
-        border-bottom: 1px solid #ddd;
+      &:hover::before {
+        width: 100%;
       }
     }
 

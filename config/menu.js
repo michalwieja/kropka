@@ -4,19 +4,19 @@ export default [
     name: 'Start'
   },
   {
-    path: '/about',
+    path: '/onas',
     name: 'O nas'
   },
   {
-    path: '/harmonogram',
-    name: 'Harmonogram'
+    path: '/grafik',
+    name: 'Grafik'
   },
   {
     path: '/cennik',
     name: 'Cennik'
   },
   {
-    path: '/contact',
+    path: '/kontakt',
     name: 'Kontakt'
   }
 ]

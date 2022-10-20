@@ -1,6 +1,6 @@
 <template>
   <div class="site container price-list">
-    <h1>Cennik</h1>
+    <h2>Cennik</h2>
     <div>
       <div class="price-list__header">
         <div>Zajęcia</div>

@@ -9,6 +9,7 @@
 @import "content-with-image";
 @import "button";
 @import "price-list";
+@import 'contact';
 
 * {
   margin: 0;
@@ -19,11 +20,21 @@
 
 body {
   transition: .5s;
+
+  &::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    z-index: -1;
+    background-image: url("~/assets/img/kropka-bg.svg");
+    opacity: 50%;
+  }
 }
 
 .site {
   padding-top: $headerHeight + 4vh;
   min-height: 100vh;
+  position: relative;
 }
 
 .container {

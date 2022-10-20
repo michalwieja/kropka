@@ -33,7 +33,6 @@
 </template>
 <script>
 
-import anime from 'animejs'
 import menuLinks from '../config/menu.js'
 import CustomButton from './CustomButton.vue'
 
@@ -63,25 +62,8 @@ export default {
   },
   methods: {
     handleBurgerClick () {
-      this.mobileNavAnimation()
       this.navActive = !this.navActive
     },
-
-    mobileNavAnimation () {
-      anime.timeline({ easing: 'linear' })
-        .add({
-          targets: '.nav__links',
-          translateX: this.navActive ? [0, '100%'] : ['100%', 0],
-          duration: 200
-        })
-        .add({
-          targets: '.nav__link',
-          opacity: this.navActive ? [1, 0] : [0, 1],
-          delay: anime.stagger(100),
-          duration: 200
-        })
-    },
-
     handleScroll () {
       this.scrollPos = window.scrollY
     }

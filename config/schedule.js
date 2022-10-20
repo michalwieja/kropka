@@ -1,9 +1,9 @@
 export const scheduleGroupLabel = {
-  younger: 'ZAJĘCIA DLA MŁODSZYCH',
-  older: 'ZAJĘCIA DLA STARSZYCH',
-  all: 'ZAJĘCIA DLA WSZYSTKICH',
-  senior: 'ZAJĘCIA DLA SENIORÓW',
-  music: 'MUZYKA'
+  younger: 'Zajęcia dla młodszych',
+  older: 'Zajęcia dla starszych',
+  all: 'Zajęcia dla wszystkich',
+  senior: 'Zajęcia dla seniorów',
+  music: 'Muzyka'
 }
 
 export const scheduleConfig = [{

@@ -13,7 +13,7 @@ import ScheduleFilter from '../components/ScheduleFilter.vue'
 import Schedule from '../components/Schedule.vue'
 
 export default {
-  name: 'Harmonogram',
+  name: 'Grafik',
   components: {
     Schedule,
     ScheduleFilter
