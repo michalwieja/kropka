@@ -4,29 +4,21 @@
       <div class="text-wrapper">
         1
       </div>
-      <div class="image-wrapper">
-        <img alt="" class="image" src="../../support-logo-connected_white.png">
-      </div>
+      <div class="image-wrapper" />
     </section>
     <section>
       <div class="text-wrapper">
         s2
       </div>
-      <div class="image-wrapper ">
-        <img alt="" class="image" src="../../support-logo-connected_white.png">
-      </div>
+      <div class="image-wrapper " />
     </section>
     <section>
       <div>s3</div>
-      <div class="image-wrapper">
-        <img alt="" class="image" src="../../support-logo-connected_white.png">
-      </div>
+      <div class="image-wrapper" />
     </section>
     <section>
       <div>s4</div>
-      <div class="image-wrapper">
-        <img alt="" class="image" src="../../support-logo-connected_white.png">
-      </div>
+      <div class="image-wrapper" />
     </section>
   </div>
 </template>
