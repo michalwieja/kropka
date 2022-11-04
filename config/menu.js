@@ -4,8 +4,12 @@ export default [
     name: 'Start'
   },
   {
-    path: '/onas',
+    path: '/#about',
     name: 'O nas'
+  },
+  {
+    path: '/#offer',
+    name: 'Oferta'
   },
   {
     path: '/grafik',
@@ -14,6 +18,10 @@ export default [
   {
     path: '/cennik',
     name: 'Cennik'
+  },
+  {
+    path: '/galeria',
+    name: 'Galeria'
   },
   {
     path: '/kontakt',

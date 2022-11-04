@@ -20,7 +20,7 @@
               {{ link.name }}
             </NuxtLink>
           </div>
-          <CustomButton label="Zapisz się" />
+          <!--          <CustomButton label="Zapisz się" />-->
         </div>
         <div :class="{toggle:navActive}" class="burger" @click="handleBurgerClick">
           <div class="burger__line" />
@@ -34,11 +34,9 @@
 <script>
 
 import menuLinks from '../config/menu.js'
-import CustomButton from './CustomButton.vue'
 
 export default {
   name: 'Header',
-  components: { CustomButton },
   props: {
     transparent: {
       type: Boolean,

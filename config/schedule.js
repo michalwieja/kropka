@@ -6,6 +6,29 @@ export const scheduleGroupLabel = {
   music: 'Muzyka'
 }
 
+export const selectLabels = [
+  {
+    label: 'Zajęcia dla młodszych',
+    key: 'younger'
+  },
+  {
+    label: 'Zajęcia dla starszych',
+    key: 'older'
+  },
+  {
+    label: 'Zajęcia dla wszystkich',
+    key: 'all'
+  },
+  {
+    label: 'Zajęcia dla seniorów',
+    key: 'senior'
+  },
+  {
+    label: 'Muzyka',
+    key: 'music'
+  }
+]
+
 export const scheduleConfig = [{
   label: scheduleGroupLabel.younger,
   children: [{

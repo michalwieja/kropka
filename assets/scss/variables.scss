@@ -25,5 +25,9 @@ $headerHeightActive: 8vh;
 
 :root {
   --primaryGreen: #5f766c;
-  --secondaryGreen: #8bb3a2
+  --secondaryGreen: #8bb3a2;
+  --vs-controls-color: var(--primaryGreen) !important;
+  --vs-dropdown-option--active-bg: var(--primaryGreen) !important;
+  --vs-border-color: var(--primaryGreen);
+
 }

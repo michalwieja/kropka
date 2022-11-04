@@ -1,0 +1,16 @@
+.section-title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+
+  &__title {
+    font-size: 48px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    font-size: 32px;
+  }
+}
