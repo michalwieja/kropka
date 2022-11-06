@@ -1,5 +1,5 @@
 .about-section {
-  background-color: #D1CEC7;
+  background-color: rgba(209, 206, 199, 0.5);
   padding-bottom: 10vh;
 
   &__content {
@@ -50,6 +50,7 @@
       width: 60%;
       aspect-ratio: 1;
       z-index: 2;
+      //max-width: 300px;
     }
 
     &--2 {

@@ -30,14 +30,16 @@ html {
 
 body {
   transition: .5s;
+  overflow-y: scroll;
 
   &::before {
     position: absolute;
     content: '';
     inset: 0;
     z-index: -1;
-    background-image: url("~/assets/img/kropka-bg.svg");
     opacity: 100%;
+    background-image: url("~/assets/img/kropka-bg.svg");
+    background-position: 0 0;
   }
 }
 

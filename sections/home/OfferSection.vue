@@ -1,17 +1,15 @@
 <template>
   <div id="offer" class="offer site container">
-    <SectionTitle subtitle="Tutaj podtytuł oferty" title="Oferta" />
+    <SectionTitle subtitle="Co u nas znajdziesz" title="Oferta" />
     <div class="offer__cards">
       <div
         v-for="card in offerConfig"
         :key="card.label"
         class="offer__card"
       >
-        <!--        <div class="offer__card__photo" />-->
-        <img alt="" src="offer/rysunek.jpg">
-        <div class="offer__card__content">
-          {{ card.label }}
-        </div>
+        <img alt="" class="top-img" src="offer/rysunek.jpg">
+        <img alt="" class="bg-img" src="offer/rysunek.jpg">
+        <span class="label">{{ card.label }}</span>
       </div>
     </div>
   </div>

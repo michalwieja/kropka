@@ -1,9 +1,12 @@
 .contact {
+  min-height: 95vh;
+
   &__wrapper {
     padding-top: 4vh;
     display: flex;
     flex-wrap: wrap;
     gap: 4vh;
+    align-items: center;
   }
 
   &__box {

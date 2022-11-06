@@ -9,8 +9,12 @@
         miejsce dla dzieci i&nbsp;dorosłych
       </div>
       <div class="hero__buttons">
-        <CustomButton label="Grafik" secondary />
-        <CustomButton label="Zapisz się" />
+        <NuxtLink to="/grafik">
+          <CustomButton label="Grafik" secondary />
+        </NuxtLink>
+        <a href="https://www.booksy.com" target="_blank">
+          <CustomButton label="Zapisz się" />
+        </a>
       </div>
     </div>
     <div class="hero__photo">

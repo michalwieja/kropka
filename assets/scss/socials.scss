@@ -13,17 +13,11 @@
   svg {
     width: 32px;
     height: 32px;
+    display: block;
   }
 
   @media (max-width: 1200px) {
     bottom: 20px;
     right: 20px;
-    padding: 6px;
-    gap: 10px;
-
-    svg {
-      width: 20px;
-      height: 20px;
-    }
   }
 }

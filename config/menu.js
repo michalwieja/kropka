@@ -19,10 +19,10 @@ export default [
     path: '/cennik',
     name: 'Cennik'
   },
-  {
-    path: '/galeria',
-    name: 'Galeria'
-  },
+  // {
+  //   path: '/galeria',
+  //   name: 'Galeria'
+  // },
   {
     path: '/kontakt',
     name: 'Kontakt'

@@ -1,4 +1,9 @@
 .offer {
+
+  .section-title {
+    margin-bottom: 50px;
+  }
+
   &__cards {
     display: flex;
     flex-wrap: wrap;
@@ -13,10 +18,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     flex: 1 1 260px;
-    
-    img {
+    font-size: 28px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover .top-img {
+      opacity: 0;
+    }
+
+    &:hover .bg-img {
+      opacity: 1;
+    }
+
+    &:hover .label {
+      opacity: 1;
+      background: rgba(255, 255, 255, 0.75);
+    }
+
+    .label {
+      padding: 10px 20px;
+      border-radius: 40px;
+      transition: .3s;
+      z-index: 2;
+    }
+
+    .top-img {
       height: 100px;
       aspect-ratio: 1;
       border-radius: 50%;
@@ -24,6 +53,20 @@
       top: -50px;
       object-fit: cover;
       object-position: center;
+      transition: .3s
+    }
+
+    .bg-img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 40px;
+      opacity: 0;
+      z-index: 1;
+      transition: .3s
+
     }
   }
 }

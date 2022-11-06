@@ -1,8 +1,7 @@
 <template>
   <div class="site container contact">
-    <h1>
-      zobacz gdzie nas znaleźć
-    </h1>
+    <section-title subtitle="zobacz gdzie nas znaleźć" title="Kontakt" />
+
     <div class="contact__wrapper">
       <div class="contact__box contact__box--map">
         <GmapMap
@@ -37,10 +36,12 @@
 import HomeIcon from '../components/icons/HomeIcon.vue'
 import EmailIcon from '../components/icons/EmailIcon.vue'
 import PhoneIcon from '../components/icons/PhoneIcon.vue'
+import SectionTitle from '../components/SectionTitle.vue'
 
 export default {
   name: 'Kontakt',
   components: {
+    SectionTitle,
     PhoneIcon,
     EmailIcon,
     HomeIcon
