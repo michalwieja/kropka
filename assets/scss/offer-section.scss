@@ -1,0 +1,29 @@
+.offer {
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+
+  &__card {
+    background-color: #eee;
+    position: relative;
+    height: 200px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    flex: 1 1 260px;
+    
+    img {
+      height: 100px;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      position: absolute;
+      top: -50px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}

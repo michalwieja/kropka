@@ -12,6 +12,8 @@
 @import 'contact';
 @import 'socials';
 @import 'section-title';
+@import 'about-section';
+@import 'offer-section';
 
 * {
   margin: 0;
@@ -19,6 +21,7 @@
   box-sizing: border-box;
   font-family: 'Now', sans-serif;
   font-weight: 300;
+  color: $black;
 }
 
 html {
@@ -34,13 +37,13 @@ body {
     inset: 0;
     z-index: -1;
     background-image: url("~/assets/img/kropka-bg.svg");
-    opacity: 50%;
+    opacity: 100%;
   }
 }
 
 .site {
   padding-top: $headerHeight + 4vh;
-  min-height: 100vh;
+  //min-height: 100vh;
   position: relative;
 }
 

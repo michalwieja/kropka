@@ -1,0 +1,66 @@
+.about-section {
+  background-color: #D1CEC7;
+  padding-bottom: 10vh;
+
+  &__content {
+    display: flex;
+    padding-top: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    @media (max-width: 1200px) {
+      flex-direction: column;
+    }
+
+    & > div:first-child {
+      flex: 2;
+      position: relative;
+    }
+
+    & > div:last-child {
+      flex: 3;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  &__title {
+    font-size: 28px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+  }
+
+  &__text {
+    font-size: 20px;
+  }
+
+  &__photo {
+    border-radius: 50%;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    &--1 {
+      width: 60%;
+      aspect-ratio: 1;
+      z-index: 2;
+    }
+
+    &--2 {
+      position: absolute;
+      width: 40%;
+      aspect-ratio: 1;
+      bottom: 0;
+      right: 0;
+      z-index: 1;
+
+
+    }
+  }
+}

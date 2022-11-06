@@ -5,10 +5,11 @@
       <div class="about-section__content">
         <div>
           <div class="about-section__photo about-section__photo--1">
-            foto1
+            <img alt="rysunek" src="/offer/rysunek.jpg">
           </div>
+
           <div class="about-section__photo about-section__photo--2">
-            foto2
+            <img alt="rysunek" src="/offer/rysunek.jpg">
           </div>
         </div>
         <div>
@@ -48,69 +49,3 @@ export default {
   components: { SectionTitle }
 }
 </script>
-
-<style lang="scss" scoped>
-.about-section {
-  min-height: 100vh;
-  background-color: #D1CEC7;
-  padding-bottom: 10vh;
-
-  &__content {
-    display: flex;
-    padding-top: 40px;
-    gap: 40px;
-    flex-wrap: wrap;
-
-    @media (max-width: 1200px) {
-      flex-direction: column;
-    }
-
-    & > div:first-child {
-      flex: 2;
-      position: relative;
-    }
-
-    & > div:last-child {
-      flex: 3;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-  }
-
-  &__title {
-    font-size: 32px;
-    font-family: 'League Spartan', sans-serif;
-    font-weight: 700;
-  }
-
-  &__text {
-    font-size: 24px;
-  }
-
-  &__photo {
-
-    border-radius: 50%;
-    position: absolute;
-
-    &--1 {
-      background: blue;
-      opacity: .1;
-      width: 100px;
-      height: 100px;
-      top: 0;
-      left: 0;
-    }
-
-    &--2 {
-      background: red;
-      width: 100px;
-      height: 100px;
-      bottom: 0;
-      right: 0;
-      opacity: .1;
-    }
-  }
-}
-
-</style>
