@@ -51,12 +51,9 @@
     gap: 0;
 
     &__text {
-
       width: calc(min(1320px, 90%));
       margin-inline: auto;
-      padding: 6vh 0;
-
+      padding: 4vh 0 8vh;
     }
   }
-
 }
