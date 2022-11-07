@@ -18,7 +18,7 @@
               {{ event.hour }}
             </div>
             <div style="flex: 1">
-              {{ event.time }}
+              {{ event.time }}h
             </div>
           </div>
         </div>
@@ -31,5 +31,6 @@
 export default {
   name: 'Schedule',
   props: ['filteredItems']
+
 }
 </script>

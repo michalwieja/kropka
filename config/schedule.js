@@ -36,7 +36,7 @@ export const scheduleConfig = [{
     event: [{
       day: 'wtorek',
       hour: '16:30-17:30',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   },
   {
@@ -44,11 +44,11 @@ export const scheduleConfig = [{
     event: [{
       day: 'wtorek',
       hour: '17:45-18:45',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '09:00-10:00',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   },
   {
@@ -56,11 +56,11 @@ export const scheduleConfig = [{
     event: [{
       day: 'środa',
       hour: '09:15-10:15',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'czwartek',
       hour: '16:30-17:30',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   }]
 },
@@ -71,7 +71,7 @@ export const scheduleConfig = [{
     event: [{
       day: 'wtorek',
       hour: '17:45-18:45',
-      time: '1.5 godz'
+      time: '1.5'
     }]
   },
   {
@@ -79,12 +79,12 @@ export const scheduleConfig = [{
     event: [{
       day: 'wtorek',
       hour: '16:00-17:30',
-      time: '1.5 godz'
+      time: '1.5'
     },
     {
       day: 'środa',
       hour: '10:15-11:45',
-      time: '1.5 godz'
+      time: '1.5'
     }]
   },
   {
@@ -92,12 +92,12 @@ export const scheduleConfig = [{
     event: [{
       day: 'środa',
       hour: '10:30-12:00',
-      time: '1.5 godz'
+      time: '1.5'
     },
     {
       day: 'czwartek',
       hour: '18:00-19:30',
-      time: '1.5 godz'
+      time: '1.5'
     }]
   },
   {
@@ -105,7 +105,7 @@ export const scheduleConfig = [{
     event: [{
       day: 'piątek',
       hour: '16:30-18:00',
-      time: '1.5 godz'
+      time: '1.5'
     }
     ]
   }]
@@ -117,11 +117,11 @@ export const scheduleConfig = [{
     event: [{
       day: 'czwartek',
       hour: '16:15-17:15',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'piątek',
       hour: '09:00-10:00',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   },
   {
@@ -129,12 +129,12 @@ export const scheduleConfig = [{
     event: [{
       day: 'czwartek',
       hour: '17:30-19:00',
-      time: '1.5 godz'
+      time: '1.5'
     },
     {
       day: 'piątek',
       hour: '10:15-11:45',
-      time: '1.5 godz'
+      time: '1.5'
     }]
   },
   {
@@ -142,12 +142,12 @@ export const scheduleConfig = [{
     event: [{
       day: 'piątek',
       hour: '10:30-12:00',
-      time: '1.5 godz'
+      time: '1.5'
     },
     {
       day: 'piątek',
       hour: '14:45-16:15',
-      time: '1.5 godz'
+      time: '1.5'
     }]
   }]
 },
@@ -158,7 +158,7 @@ export const scheduleConfig = [{
     event: [{
       day: 'sobota',
       hour: '10:30-11:30',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   },
   {
@@ -166,7 +166,7 @@ export const scheduleConfig = [{
     event: [{
       day: 'sobota',
       hour: '11:45-12:45',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   },
   {
@@ -174,19 +174,19 @@ export const scheduleConfig = [{
     event: [{
       day: 'środa',
       hour: '14:00-15:00',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '15:00-16:00',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '16:00-17:00',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '17:00-18:00',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   },
   {
@@ -194,19 +194,19 @@ export const scheduleConfig = [{
     event: [{
       day: 'środa',
       hour: '14:00-15:00',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '15:00-16:00',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '16:00-17:00',
-      time: '1.0 godz'
+      time: '1.0'
     }, {
       day: 'środa',
       hour: '17:00-18:00',
-      time: '1.0 godz'
+      time: '1.0'
     }]
   }]
 }, {
@@ -216,7 +216,7 @@ export const scheduleConfig = [{
     event: [{
       day: 'poniedziałek',
       hour: '10:00-12:00',
-      time: '2,0 godz.'
+      time: '2,0.'
     }]
   }]
 }]
