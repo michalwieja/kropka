@@ -3,6 +3,9 @@
   flex-direction: column;
   gap: 4vh;
 
+  @media (max-width: $break-900) {
+    font-size: 12px;
+  }
 
   &__filter {
     display: flex;
@@ -13,8 +16,8 @@
   &__header {
     display: flex;
     padding: 10px;
-    text-transform: uppercase;
     font-weight: bold;
+    gap: 10px;
   }
 
   &__group-label {
@@ -28,6 +31,7 @@
   &__event-row {
     display: flex;
     padding: 10px;
+    gap: 10px;
   }
 
   &__event-row:not(:last-child) {
@@ -35,7 +39,7 @@
   }
 
   &__event-label {
-    flex: 2;
+    flex: 3;
   }
 
   &__event-content {

@@ -15,15 +15,23 @@
   }
 
   &__title {
-    font-size: $fz50;
+    font-size: 48px;
     font-family: 'League Spartan', sans-serif;
     font-weight: bold;
     max-width: 300px;
+
+    @media (max-width: $break-600) {
+      font-size: 32px;
+    }
   }
 
   &__subtitle {
-    font-size: $fz30;
+    font-size: 32px;
     max-width: 300px;
+
+    @media (max-width: $break-600) {
+      font-size: 24px;
+    }
   }
 
   &__buttons {

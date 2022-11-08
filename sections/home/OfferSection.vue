@@ -13,7 +13,9 @@
       >
         <img :src="`offer/${card.photo}`" alt="" class="top-img">
         <img :src="`offer/${card.photo}`" alt="" class="bg-img">
-        <span class="label">{{ card.label }}</span>
+        <span class="label">
+          {{ card.label }}
+        </span>
       </div>
     </div>
     <SectionTitle
@@ -28,7 +30,9 @@
       >
         <img :src="`offer/${card.photo}`" alt="" class="top-img">
         <img :src="`offer/${card.photo}`" alt="" class="bg-img">
-        <span class="label">{{ card.label }}</span>
+        <span class="label">
+          {{ card.label }}
+        </span>
       </div>
     </div>
     <SectionTitle
@@ -43,12 +47,22 @@
       >
         <img alt="" class="top-img" src="offer/rysunek.jpg">
         <img alt="" class="bg-img" src="offer/rysunek.jpg">
-        <span class="label">{{ card.label }}</span>
+        <span class="label">
+          {{ card.label }}
+        </span>
       </div>
     </div>
 
     <ModalComponent v-if="activeCard" @close-modal="activeCard=null">
-      <div>{{ activeCard.desc }}</div>
+      <div class="photo" style="border-radius: 20px; overflow: hidden">
+        <img
+          :src="`offer/${activeCard.photo}`"
+          alt=""
+          style="width: 100%; max-height: 200px; object-fit: cover"
+        >
+      </div>
+      <h2>{{ activeCard.label }}</h2>
+      <h3>{{ activeCard.desc }}</h3>
     </ModalComponent>
   </div>
 </template>

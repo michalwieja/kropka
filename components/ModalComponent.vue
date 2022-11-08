@@ -1,6 +1,6 @@
 <template>
-  <div class="modal-overlay">
-    <div class="modal">
+  <div class="modal-overlay" @click="$emit('close-modal')">
+    <div class="modal" @click.stop>
       <div class="close" @click="$emit('close-modal')">
         &times;
       </div>
@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -37,10 +37,16 @@ export default {
   min-height: 200px;
   min-width: 300px;
   max-width: 600px;
+  max-height: 80%;
+  overflow-y: auto;
   margin-top: 10%;
   padding: 60px 40px;
   border-radius: 20px;
   position: relative;
+
+  @media (max-width: 900px) {
+    padding: 60px 10px 20px;
+  }
 }
 
 .close {
@@ -50,6 +56,12 @@ export default {
   font-size: 32px;
   font-family: sans-serif;
   cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 </style>

@@ -1,16 +1,16 @@
 <template>
   <div class="schedule__header">
-    <div style="flex:2">
-      zajęcia
+    <div style="flex:3">
+      Zajęcia
     </div>
     <div style="flex: 1">
-      dzień
+      Dzień
     </div>
     <div style="flex: 1">
-      godziny
+      Godziny
     </div>
     <div style="flex: 1">
-      czas trwania
+      Czas trwania
     </div>
   </div>
 </template>

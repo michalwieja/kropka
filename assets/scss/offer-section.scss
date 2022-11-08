@@ -1,14 +1,15 @@
 .offer {
 
   .section-title {
-    margin: 50px;
+    margin-bottom: 50px;
   }
 
   &__cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 20px;
     justify-content: center;
+    padding-bottom: 100px;
   }
 
   &__card {
@@ -20,7 +21,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    flex: 0 1 330px;
+    flex: 0 1 300px;
     font-size: 16px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
@@ -40,12 +41,13 @@
     }
 
     .label {
-      padding: 10px 20px;
+      padding: 10px;
       border-radius: 20px;
       transition: .3s;
       z-index: 2;
-      max-width: 80%;
+      max-width: 90%;
       text-align: center;
+      font-weight: bold;
     }
 
     .top-img {
@@ -71,7 +73,6 @@
       opacity: 0;
       z-index: 1;
       transition: .3s
-
     }
   }
 }

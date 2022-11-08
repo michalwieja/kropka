@@ -13,28 +13,28 @@
           </div>
         </div>
         <div>
-          <div class="about-section__title">
+          <h2>
             Pracownia artystyczna
-          </div>
-          <div class="about-section__text">
+          </h2>
+          <h3 class="about-section__text">
             To kreatywna przestrzeń na mapie Tychów. Miejsce, które powstało by pobudzać do
             artystycznego działania małych, młodych i dorosłych.
-          </div>
-          <div class="about-section__text">
+          </h3>
+          <h3>
             Chcemy pokazać, że obcowanie ze sztuką to zabawa, ale
             też, że zajęcia kreatywne mają wpływ na na różne aspekty życia ukazując jego
             wielowymiarowość. Kształtują wrażliwośc i otwierają na świat. Pobudzają do
             doświadczania, szukania rozwiązań, odkrywania nowego. Ufamy wyobraźni i chcemy by to ona
             była przewodnikiem na naszych warsztatach.
-          </div>
-          <div class="about-section__title">
+          </h3>
+          <h2>
             Kawiarnia i kącik dla rodzica
-          </div>
-          <div class="about-section__text">
+          </h2>
+          <h3>
             Kropka to też miejsce spotkań, rozmów i chilloutu.
             Ugościmy Was w naszej kawiarnii. Przytulna i kameralna przestrzeń, pyszna włoska kawa i
             oczywiście coś słodkiego - brzmi dobrze prawda?
-          </div>
+          </h3>
         </div>
       </div>
     </div>

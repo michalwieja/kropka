@@ -11,7 +11,10 @@
         </div>
         <div class="schedule__event-content">
           <div v-for="event in child.event" :key="event.hour" class="schedule__event-content-row">
-            <div style="flex: 1">
+            <div class="mobile-only" style="flex: 1">
+              {{ event.shortDay }}
+            </div>
+            <div class="desktop-only" style="flex: 1">
               {{ event.day }}
             </div>
             <div style="flex: 1">

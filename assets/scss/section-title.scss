@@ -3,14 +3,21 @@
   flex-direction: column;
   text-align: center;
   gap: 20px;
+  margin-top: 20px;
 
   &__title {
     font-size: 48px;
     font-family: 'League Spartan', sans-serif;
     font-weight: 700;
+    @media (max-width: $break-600) {
+      font-size: 32px;
+    }
   }
 
   &__subtitle {
     font-size: 32px;
+    @media (max-width: $break-600) {
+      font-size: 24px;
+    }
   }
 }
