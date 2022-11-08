@@ -2,7 +2,7 @@ export const youngestOfferConfig = [
   {
     label: 'MUZYKOTERAPIA ',
     photo: 'rysunek.jpg',
-    desc: 'MUZYKOTERAPIA - czyli  wspieranie rozwoju dzieci przez muzykę. Muzyka rozwija emocjonalnie i twórczo dzieci. Na zajęcia możesz przyjść z maluszkiem od 6 miesiąca życia. To bardzo dobry moment żeby zacząć swoją przygodę, spotkać się z innymi i wspólnie poznawać świat muzyki.',
+    desc: 'Czyli  wspieranie rozwoju dzieci przez muzykę. Muzyka rozwija emocjonalnie i twórczo dzieci. Na zajęcia możesz przyjść z maluszkiem od 6 miesiąca życia. To bardzo dobry moment żeby zacząć swoją przygodę, spotkać się z innymi i wspólnie poznawać świat muzyki.',
     list: ['Dobra zabawa', 'Rozwój emocjonalny', 'Uwrażliwianie', 'Wspólny czas']
   },
   {
