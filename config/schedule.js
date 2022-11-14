@@ -1,4 +1,5 @@
 export const scheduleGroupLabel = {
+  baby: 'Zajęcia dla maluszków i przedszkolaków (z opiekunem)',
   younger: 'Zajęcia dla młodszych',
   older: 'Zajęcia dla starszych',
   all: 'Zajęcia dla wszystkich',
@@ -7,6 +8,10 @@ export const scheduleGroupLabel = {
 }
 
 export const selectLabels = [
+  {
+    label: 'Zajęcia dla maluszków i przedszkolaków (z opiekunem)',
+    key: 'baby'
+  },
   {
     label: 'Zajęcia dla młodszych',
     key: 'younger'
@@ -29,222 +34,194 @@ export const selectLabels = [
   }
 ]
 
-export const scheduleConfig = [{
-  label: scheduleGroupLabel.younger,
-  children: [{
-    label: 'Malarstwo (7-11\u00A0lat)',
-    event: [{
-      day: 'wtorek',
-      shortDay: 'wt',
-      hour: '16:30-17:30',
-      time: '1.0'
-    }]
-  },
+export const scheduleConfig = [
   {
-    label: 'Szkoła rysunku (7-11\u00A0lat)',
-    event: [{
-      day: 'wtorek',
-      shortDay: 'wt',
-      hour: '17:45-18:45',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '09:00-10:00',
-      time: '1.0'
-    }]
-  },
-  {
-    label: 'Ceramika (7-11\u00A0lat)',
-    event: [{
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '09:15-10:15',
-      time: '1.0'
-    }, {
-      day: 'czwartek',
-      shortDay: 'Czw',
-      hour: '16:30-17:30',
-      time: '1.0'
-    }]
-  }]
-},
-{
-  label: scheduleGroupLabel.older,
-  children: [{
-    label: 'Malarstwo (wiek:\u00A012+)',
-    event: [{
-      day: 'wtorek',
-      shortDay: 'wt',
-      hour: '17:45-18:45',
-      time: '1.5'
-    }]
-  },
-  {
-    label: 'Szkoła rysunku (wiek:\u00A012+)',
-    event: [{
-      day: 'wtorek',
-      shortDay: 'wt',
-      hour: '16:00-17:30',
-      time: '1.5'
+    label: scheduleGroupLabel.baby,
+    children: [
+      {
+        label: 'Zabawy plastyczne (2-3\u00A0lata)',
+        event: [{
+          day: 'środa',
+          shortDay: 'śr',
+          hour: '11:00-11:45',
+          time: '45'
+        }]
+      },
+      {
+        label: 'Teatr Kolorów czyli zajęcia plastyczne z opowieścią (3-6\u00A0lat)',
+        event: [{
+          day: 'środa',
+          shortDay: 'Śr',
+          hour: '09:45-10:45',
+          time: '1.0'
+        }]
+      },
+      {
+        label: 'KreAktywne Soboty rozwojowe zajęcia muzyczno-plastyczne (4-6\u00A0lat)',
+        event: [{
+          day: 'sobota',
+          shortDay: 'Sb',
+          hour: '09:45-10:45',
+          time: '1.0'
+        }
+        ]
+      }, {
+        label: 'Muzykoterapia (wiek\u00A06-36m)',
+        event: [{
+          day: 'sobota',
+          shortDay: 'sb',
+          hour: '10-30-11:00',
+          time: '0.5'
+        }]
+      }]
+  }, {
+    label: scheduleGroupLabel.younger,
+    children: [{
+      label: 'Kreatywne warsztaty plastyczne (wiek\u00A07-11 lat)',
+      event: [{
+        day: 'wtorek',
+        shortDay: 'wt',
+        hour: '17:45-18:45',
+        time: '1.0'
+      }]
     },
     {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '10:15-11:45',
-      time: '1.5'
-    }]
-  },
-  {
-    label: 'Ceramika (wiek:\u00A012+)',
-    event: [{
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '10:30-12:00',
-      time: '1.5'
+      label: 'Pracownia Małego Architekta czyli zabawa makietą i formą przestrzenną (wiek\u00A07-11 lat)',
+      event: [{
+        day: 'wtorek',
+        shortDay: 'wt',
+        hour: '16:30-17:30',
+        time: '1.0'
+      }]
     },
     {
-      day: 'czwartek',
-      shortDay: 'Czw',
-      hour: '18:00-19:30',
-      time: '1.5'
+      label: 'Ceramika czyli zabawa w glinie (7-11\u00A0lat)',
+      event: [{
+        day: 'czwartek',
+        shortDay: 'Czw',
+        hour: '16:30-17:30',
+        time: '1.0'
+      }]
     }]
   },
   {
-    label: 'Akwarele (wiek:\u00A010+)',
-    event: [{
-      day: 'piątek',
-      shortDay: 'Pt',
-      hour: '16:30-18:00',
-      time: '1.5'
-    }
-    ]
-  }]
-},
-{
-  label: scheduleGroupLabel.all,
-  children: [{
-    label: 'Origami',
-    event: [{
-      day: 'czwartek',
-      shortDay: 'Czw',
-      hour: '16:15-17:15',
-      time: '1.0'
-    }, {
-      day: 'piątek',
-      shortDay: 'Pt',
-      hour: '09:00-10:00',
-      time: '1.0'
-    }]
-  },
-  {
-    label: 'Rękodzieło',
-    event: [{
-      day: 'czwartek',
-      shortDay: 'Czw',
-      hour: '17:30-19:00',
-      time: '1.5'
+    label: scheduleGroupLabel.older,
+    children: [{
+      label: 'Malarstwo (wiek:\u00A012+)',
+      event: [{
+        day: 'wtorek',
+        shortDay: 'wt',
+        hour: '17:45-18:45',
+        time: '1.5'
+      }]
     },
     {
-      day: 'piątek',
-      shortDay: 'Pt',
-      hour: '10:15-11:45',
-      time: '1.5'
-    }]
-  },
-  {
-    label: 'Grafika',
-    event: [{
-      day: 'piątek',
-      shortDay: 'Pt',
-      hour: '10:30-12:00',
-      time: '1.5'
+      label: 'Szkoła rysunku (wiek:\u00A012+)',
+      event: [{
+        day: 'wtorek',
+        shortDay: 'wt',
+        hour: '16:00-17:30',
+        time: '1.5'
+      }]
     },
     {
-      day: 'piątek',
-      shortDay: 'Pt',
-      hour: '14:45-16:15',
-      time: '1.5'
-    }]
-  }]
-},
-{
-  label: scheduleGroupLabel.music,
-  children: [{
-    label: 'Ukulele (gr.\u00A0początkująca)',
-    event: [{
-      day: 'sobota',
-      shortDay: 'Sb',
-      hour: '10:30-11:30',
-      time: '1.0'
-    }]
-  },
-  {
-    label: 'Ukulele (gr.\u00A0zaawansowana)',
-    event: [{
-      day: 'sobota',
-      shortDay: 'Sb',
-      hour: '11:45-12:45',
-      time: '1.0'
+      label: 'Ceramika (wiek:\u00A012+)',
+      event: [
+        {
+          day: 'czwartek',
+          shortDay: 'Czw',
+          hour: '18:00-19:30',
+          time: '1.5'
+        }]
+    },
+    {
+      label: 'Akwarele (wiek:\u00A010+)',
+      event: [{
+        day: 'czwartek',
+        shortDay: 'Czw',
+        hour: '16:30-18:00',
+        time: '1.5'
+      }
+      ]
     }]
   },
   {
-    label: 'Gitara (zajęcia indywidualne lub duet)',
-    event: [{
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '14:00-15:00',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '15:00-16:00',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '16:00-17:00',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '17:00-18:00',
-      time: '1.0'
+    label: scheduleGroupLabel.all,
+    children: [{
+      label: 'Ceramika',
+      event: [{
+        day: 'sobota',
+        shortDay: 'Sb',
+        hour: '10:30-12:00',
+        time: '1.5'
+      }]
+    },
+    {
+      label: 'Łyżkarstwo czyli od pieńka do łyżki',
+      event: [{
+        day: 'sobota',
+        shortDay: 'Sb',
+        hour: '10:30-12:00',
+        time: '1.5'
+      }]
+    },
+    {
+      label: 'Ręcznie robione',
+      event: [{
+        day: 'piątek',
+        shortDay: 'Pt',
+        hour: '17:30-19:00',
+        time: '1.5'
+      }]
     }]
   },
   {
-    label: 'Muzykoterapia (zajęcia\u00A0indywidualne)',
-    event: [{
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '14:00-15:00',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '15:00-16:00',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '16:00-17:00',
-      time: '1.0'
-    }, {
-      day: 'środa',
-      shortDay: 'Śr',
-      hour: '17:00-18:00',
-      time: '1.0'
+    label: scheduleGroupLabel.music,
+    children: [{
+      label: 'Ukulele (gr.\u00A0początkująca)',
+      event: [{
+        day: 'sobota',
+        shortDay: 'Sb',
+        hour: '12:00-13:00',
+        time: '1.0'
+      }]
+    },
+    {
+      label: 'Ukulele (gr.\u00A0zaawansowana)',
+      event: [{
+        day: 'sobota',
+        shortDay: 'Sb',
+        hour: '13:00-14:00',
+        time: '1.0'
+      }]
+    },
+    {
+      label: 'Gitara (zajęcia indywidualne lub duet)',
+      event: [{
+        day: 'środa',
+        shortDay: 'Śr',
+        hour: 'ustal. indyw.',
+        time: '1.0'
+      }]
+    },
+    {
+      label: 'Muzykoterapia (zajęcia\u00A0indywidualne)',
+      event: [{
+        day: 'środa',
+        shortDay: 'Śr',
+        hour: 'ustal. indyw.',
+        time: '1.0'
+      }]
+    }]
+  }, {
+    label: scheduleGroupLabel.senior,
+    children: [{
+      label: 'Ogród sztuk (zajęcia interdyscyplinarne)',
+      event: [{
+        day: 'poniedziałek',
+        shortDay: 'Pn',
+        hour: '12:30-14:30',
+        time: '2.0'
+      }]
     }]
   }]
-}, {
-  label: scheduleGroupLabel.senior,
-  children: [{
-    label: 'Ogród sztuk (zajęcia interdyscyplinarne)',
-    event: [{
-      day: 'poniedziałek',
-      shortDay: 'Pn',
-      hour: '10:00-12:00',
-      time: '2,0.'
-    }]
-  }]
-}]
