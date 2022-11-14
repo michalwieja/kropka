@@ -31,31 +31,34 @@
   }
 
   &__photo {
-    border-radius: 50%;
+    border-radius: 40px;
     overflow: hidden;
+    @supports (aspect-ratio: 1) {
+      border-radius: 50%;
+    }
 
     img {
       width: 100%;
+      aspect-ratio: 1;
+      display: block;
       object-fit: cover;
       object-position: center;
     }
 
     &--1 {
-      width: 60vw;
-      height: 60vw;
+      width: 60%;
       z-index: 2;
     }
 
     &--2 {
       position: absolute;
-      width: 40vw;
-      height: 40vw;
+      width: 36%;
       bottom: 0;
       right: 0;
       z-index: 1;
       @media (max-width: $break-600) {
         display: none;
-      }
+      };
     }
   }
 }
