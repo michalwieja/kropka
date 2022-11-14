@@ -46,7 +46,7 @@
     padding: 10px;
     border-radius: 10px;
     bottom: 30px;
-    scale: 0;
+    transform: scale(0);
     transition: .3s;
     @media (max-width: $break-900) {
       bottom: unset;
@@ -57,6 +57,6 @@
   }
 
   &:hover:before {
-    scale: 1
+    transform: scale(1)
   }
 }
