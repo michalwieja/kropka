@@ -42,10 +42,10 @@ export default {
   padding: 60px 40px;
   border-radius: 20px;
   position: relative;
-  margin: 10% 10px;
+  margin: 10% 16px;
 
   @media (max-width: 900px) {
-    padding: 60px 10px 20px;
+    padding: 60px 16px 20px;
     text-align: left;
   }
 }
