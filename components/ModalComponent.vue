@@ -39,13 +39,14 @@ export default {
   max-width: 600px;
   max-height: 80%;
   overflow-y: auto;
-  margin-top: 10%;
   padding: 60px 40px;
   border-radius: 20px;
   position: relative;
+  margin: 10% 10px;
 
   @media (max-width: 900px) {
     padding: 60px 10px 20px;
+    text-align: left;
   }
 }
 
