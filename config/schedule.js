@@ -9,7 +9,7 @@ export const scheduleGroupLabel = {
 
 export const selectLabels = [
   {
-    label: 'Zajęcia dla maluszków i przedszkolaków (z opiekunem)',
+    label: 'Zajęcia dla maluszków i przedszkolaków',
     key: 'baby'
   },
   {
@@ -44,7 +44,7 @@ export const scheduleConfig = [
           day: 'środa',
           shortDay: 'śr',
           hour: '11:00-11:45',
-          time: '45'
+          time: '45m'
         }]
       },
       {
@@ -53,7 +53,7 @@ export const scheduleConfig = [
           day: 'środa',
           shortDay: 'Śr',
           hour: '09:45-10:45',
-          time: '1.0'
+          time: '1.0h'
         }]
       },
       {
@@ -62,7 +62,7 @@ export const scheduleConfig = [
           day: 'sobota',
           shortDay: 'Sb',
           hour: '09:45-10:45',
-          time: '1.0'
+          time: '1.0h'
         }
         ]
       }, {
@@ -71,7 +71,7 @@ export const scheduleConfig = [
           day: 'sobota',
           shortDay: 'sb',
           hour: '10-30-11:00',
-          time: '0.5'
+          time: '0.5h'
         }]
       }]
   }, {
@@ -82,7 +82,7 @@ export const scheduleConfig = [
         day: 'wtorek',
         shortDay: 'wt',
         hour: '17:45-18:45',
-        time: '1.0'
+        time: '1.0h'
       }]
     },
     {
@@ -91,7 +91,7 @@ export const scheduleConfig = [
         day: 'wtorek',
         shortDay: 'wt',
         hour: '16:30-17:30',
-        time: '1.0'
+        time: '1.0h'
       }]
     },
     {
@@ -100,7 +100,7 @@ export const scheduleConfig = [
         day: 'czwartek',
         shortDay: 'Czw',
         hour: '16:30-17:30',
-        time: '1.0'
+        time: '1.0h'
       }]
     }]
   },
@@ -112,7 +112,7 @@ export const scheduleConfig = [
         day: 'wtorek',
         shortDay: 'wt',
         hour: '17:45-18:45',
-        time: '1.5'
+        time: '1.5h'
       }]
     },
     {
@@ -121,7 +121,7 @@ export const scheduleConfig = [
         day: 'wtorek',
         shortDay: 'wt',
         hour: '16:00-17:30',
-        time: '1.5'
+        time: '1.5h'
       }]
     },
     {
@@ -131,7 +131,7 @@ export const scheduleConfig = [
           day: 'czwartek',
           shortDay: 'Czw',
           hour: '18:00-19:30',
-          time: '1.5'
+          time: '1.5h'
         }]
     },
     {
@@ -140,7 +140,7 @@ export const scheduleConfig = [
         day: 'czwartek',
         shortDay: 'Czw',
         hour: '16:30-18:00',
-        time: '1.5'
+        time: '1.5h'
       }
       ]
     }]
@@ -153,7 +153,7 @@ export const scheduleConfig = [
         day: 'sobota',
         shortDay: 'Sb',
         hour: '10:30-12:00',
-        time: '1.5'
+        time: '1.5h'
       }]
     },
     {
@@ -162,7 +162,7 @@ export const scheduleConfig = [
         day: 'sobota',
         shortDay: 'Sb',
         hour: '10:30-12:00',
-        time: '1.5'
+        time: '1.5h'
       }]
     },
     {
@@ -171,7 +171,7 @@ export const scheduleConfig = [
         day: 'piątek',
         shortDay: 'Pt',
         hour: '17:30-19:00',
-        time: '1.5'
+        time: '1.5h'
       }]
     }]
   },
@@ -183,7 +183,7 @@ export const scheduleConfig = [
         day: 'sobota',
         shortDay: 'Sb',
         hour: '12:00-13:00',
-        time: '1.0'
+        time: '1.0h'
       }]
     },
     {
@@ -192,7 +192,7 @@ export const scheduleConfig = [
         day: 'sobota',
         shortDay: 'Sb',
         hour: '13:00-14:00',
-        time: '1.0'
+        time: '1.0h'
       }]
     },
     {
@@ -201,7 +201,7 @@ export const scheduleConfig = [
         day: 'środa',
         shortDay: 'Śr',
         hour: 'ustal. indyw.',
-        time: '1.0'
+        time: '1.0h'
       }]
     },
     {
@@ -210,7 +210,7 @@ export const scheduleConfig = [
         day: 'środa',
         shortDay: 'Śr',
         hour: 'ustal. indyw.',
-        time: '1.0'
+        time: '1.0h'
       }]
     }]
   }, {
@@ -221,7 +221,7 @@ export const scheduleConfig = [
         day: 'poniedziałek',
         shortDay: 'Pn',
         hour: '12:30-14:30',
-        time: '2.0'
+        time: '2.0h'
       }]
     }]
   }]

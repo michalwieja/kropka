@@ -45,8 +45,25 @@
         class="offer__card"
         @click="()=>handleClick(card)"
       >
-        <img alt="" class="top-img" src="offer/rysunek.jpg">
-        <img alt="" class="bg-img" src="offer/rysunek.jpg">
+        <img :src="`offer/${card.photo}`" alt="" class="top-img">
+        <img :src="`offer/${card.photo}`" alt="" class="bg-img">
+        <span class="label">
+          {{ card.label }}
+        </span>
+      </div>
+    </div>
+    <SectionTitle
+      subtitle="Zajęcia dla wszystkich"
+    />
+    <div class="offer__cards">
+      <div
+        v-for="card in allOfferConfig"
+        :key="card.label"
+        class="offer__card"
+        @click="()=>handleClick(card)"
+      >
+        <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
+        <img :alt="card.label" :src="`offer/${card.photo}`" class="bg-img">
         <span class="label">
           {{ card.label }}
         </span>
@@ -57,8 +74,8 @@
       <div class="photo" style="border-radius: 20px; overflow: hidden">
         <img
           :src="`offer/${activeCard.photo}`"
-          alt=""
-          style="width: 100%; max-height: 200px; object-fit: cover"
+          alt="tło"
+          class="offer__modal-img"
         >
       </div>
       <h2>{{ activeCard.label }}</h2>
@@ -69,12 +86,13 @@
 
 <script>
 import SectionTitle from '../../components/SectionTitle.vue'
+import ModalComponent from '../../components/ModalComponent.vue'
 import {
+  allOfferConfig,
   olderOfferConfig,
   youngerOfferConfig,
   youngestOfferConfig
 } from '../../config/offer-config.js'
-import ModalComponent from '../../components/ModalComponent.vue'
 
 export default {
   name: 'OfferSection',
@@ -87,6 +105,7 @@ export default {
       youngestOfferConfig,
       youngerOfferConfig,
       olderOfferConfig,
+      allOfferConfig,
       activeCard: null
     }
   },

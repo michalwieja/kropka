@@ -21,7 +21,7 @@
               {{ event.hour }}
             </div>
             <div style="flex: 1">
-              {{ event.time }}h
+              {{ event.time }}
             </div>
           </div>
         </div>

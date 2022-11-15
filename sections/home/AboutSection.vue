@@ -5,11 +5,11 @@
       <div class="about-section__content">
         <div>
           <div class="about-section__photo about-section__photo--1">
-            <img alt="rysunek" src="/offer/rysunek.jpg">
+            <img alt="rysunek" src="/offer/pracownia.jpg">
           </div>
 
           <div class="about-section__photo about-section__photo--2">
-            <img alt="rysunek" src="/offer/rysunek.jpg">
+            <img alt="rysunek" src="/offer/kawiarnia.jpg">
           </div>
         </div>
         <div>
