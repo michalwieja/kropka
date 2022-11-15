@@ -1,5 +1,15 @@
 .offer {
 
+  &::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    z-index: -1;
+    background-image: url("~/assets/img/kropka-bg.svg");
+    background-size: cover;
+
+  }
+
   .section-title {
     margin-bottom: 50px;
   }

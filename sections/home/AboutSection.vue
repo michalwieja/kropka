@@ -1,7 +1,7 @@
 <template>
   <section id="about" class="about-section site">
     <div class="container">
-      <SectionTitle subtitle="Miejsce stworzone z pasji" title="Kr pka" />
+      <SectionTitle subtitle="Miejsce stworzone z pasji" title="Kropka" />
       <div class="about-section__content">
         <div>
           <div class="about-section__photo about-section__photo--1">
