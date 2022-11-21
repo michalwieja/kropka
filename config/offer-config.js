@@ -2,7 +2,7 @@ export const youngestOfferConfig = [
   {
     label: 'MUZYKOTERAPIA ',
     photo: '1.jpg',
-    desc: 'Czyli  wspieranie rozwoju dzieci przez muzykę. Muzyka rozwija emocjonalnie i twórczo dzieci. Na zajęcia możesz przyjść z maluszkiem od 6 miesiąca życia. To bardzo dobry moment żeby zacząć swoją przygodę, spotkać się z innymi i wspólnie poznawać świat muzyki.',
+    desc: 'Czyli  wspieranie rozwoju dzieci przez muzykę. Muzyka rozwija emocjonalnie i \u00A0twórczo dzieci. Na zajęcia możesz przyjść z\u00A0maluszkiem od 6 miesiąca życia. To bardzo dobry moment żeby zacząć swoją przygodę, spotkać się z innymi i wspólnie poznawać świat muzyki.',
     list: ['Dobra zabawa', 'Rozwój emocjonalny', 'Uwrażliwianie', 'Wspólny czas']
   },
   {
@@ -11,7 +11,7 @@ export const youngestOfferConfig = [
     desc: 'Dlaczego zajęcia plastyczne są ważne w rozwoju dziecka? Ponieważ doskonalą umiejętności manuale, wzmacniają poczucie własnej wartości oraz indywidualizmu. Wyzwalają potencjał twórczy oraz stymulują dziecięcą wyobraźnię. Zabawy plastyczne to zajęcia dostosowane do wieku. Będziemy bawić się kolorami, fakturami, kształtami. Tworzyć i budować. Każde zajęcia to nowa przygoda. Zapraszamy dzieci z opiekunami. Odkryjemy przed Wami pomysły na aktywne wspieranie rozwoju dziecka.'
   },
   {
-    label: 'TEATR KOLORÓW CZYLI AKWARELOWE MALOWANIE Z OPOWIEŚCIĄ',
+    label: 'TEATR KOLORÓW CZYLI AKWARELOWE MALOWANIE Z\u00A0OPOWIEŚCIĄ',
     photo: '3.jpg',
     desc: 'akwarelowe malarstwo dzieci to kraina kolorów, światła i piękna. Nie musi spełniać naszych oczekiwań. Na zajęciach pozwalamy dziecku być sobą, wyzwolić głębię uczuć, sprawić by dziecko było zadowolone z siebie. (....) ←—-- do dokończenia/zmiany/nie mam weny\n'
   },
@@ -27,11 +27,16 @@ export const youngerOfferConfig = [
   {
     label: 'KREATYWNE WARSZTATY PLASTYCZNE',
     photo: '5.jpg',
-    desc: 'Pracownia Małego Architekta czyli zabawa makietą i formą przestrzenną (wiek: 7-11 lat) - edukacja architektoniczna to cudowny sposób na otwarcie głowy, pobudzenie wyobraźni i ćwiczenie kreatywności. Będziemy obserwować, analizować, projektować i budować. Obserwacja otaczają'
+    desc: 'warsztaty stworzone dla artystycznych dusz, jak również dla dzieci szukającej swojej pasji. Będzie się działo - każde zajęcia to inna technika - po to aby spróbować, doświadczyć, polubić lub nie :) Uczestnicy warsztatów będą mieć okazję do zaznajomienia się z różnymi formami rysunku, malarstwa, grafiki i rękodzieła oraz nauczą się korzystać z narzędzi plastycznych.  Zajęcia rozwijające wyobraźnię, kreatywność i zdolności manualne.'
   },
   {
-    label: 'CERAMIKA CZYLI ZABAWA Z GLINĄ',
+    label: 'PRACOWNIA MAŁEGO ARCHITEKTA CZYLI ZABAWA MAKIETĄ I FORMĄ PRZESTRZENNĄ',
     photo: '6.jpg',
+    desc: 'edukacja architektoniczna to cudowny sposób na otwarcie głowy, pobudzenie wyobraźni i ćwiczenie kreatywności. Będziemy obserwować, analizować, projektować i budować. To nie tylko zajęcia plastyczne, to również edukacja architektoniczna. Nauczymy uważnie patrzeć na najbliższe otoczenie, uświadomimy, że jesteśmy odpowiedzialni za przestrzeń wokół nas. Wyprawimy się w głąb historii – pokazuje jak zmieniały się domy i miasta. Pozwolimy dzieciom być sobą - zbudować świat na nowo, według własnej koncepcji.'
+  },
+  {
+    label: 'CERAMIKA CZYLI ZABAWA Z\u00A0GLINĄ',
+    photo: '7.jpg',
     desc: 'zajęcia stworzone by zadbać o rozwojowe potrzeby i możliwości młodszych dzieci, które dopiero rozpoczynają przygodę z pięknym ale wymagającym tworzywem jakim jest glina. W zajęciach mogą brać również udział dzieci starsze, które nie mają doświadczenia w ceramice, chcą sprawdzić czy im się to spodoba. Zajęcia trwają krócej niż zajęcia starszej grupy, żeby małe ręce nie zmarzły nadto przy pracy z zimną z natury gliną, a dzieci zyskały idealny czas radości tworzenia, ale też skupienia i  starania o szczegóły  swojej pracy. Grupa skupia się na zdobyciu podstawowych umiejętności i pracuje na wypale prac- typu biscuit (bez szkliwienia), chyba , że prowadzący uzna, że uczestnicy są już do szkliwienia gotowi.'
   }
 ]
