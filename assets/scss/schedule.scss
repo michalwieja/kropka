@@ -4,7 +4,7 @@
   gap: 4vh;
 
   @media (max-width: $break-900) {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   &__filter {
@@ -87,6 +87,7 @@
       @media (max-width: $break-900) {
         flex: unset;
         gap: 10px;
+        align-items: baseline;
       }
     }
   }

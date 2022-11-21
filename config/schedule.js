@@ -43,7 +43,7 @@ export const scheduleConfig = [
         singlePrice: 25,
         multiPrice: 90,
         event: [{
-          day: 'sobota',
+          day: 'Sobota',
           shortDay: 'sb',
           hour: '10-30-11:00',
           time: '0.5h'
@@ -54,7 +54,7 @@ export const scheduleConfig = [
         singlePrice: 35,
         multiPrice: 120,
         event: [{
-          day: 'środa',
+          day: 'Środa',
           shortDay: 'śr',
           hour: '11:00-11:45',
           time: '45m'
@@ -65,7 +65,7 @@ export const scheduleConfig = [
         singlePrice: 45,
         multiPrice: 160,
         event: [{
-          day: 'środa',
+          day: 'Środa',
           shortDay: 'Śr',
           hour: '09:45-10:45',
           time: '1.0h'
@@ -76,7 +76,7 @@ export const scheduleConfig = [
         singlePrice: 45,
         multiPrice: 160,
         event: [{
-          day: 'sobota',
+          day: 'Sobota',
           shortDay: 'Sb',
           hour: '09:45-10:45',
           time: '1.0h'
@@ -86,21 +86,21 @@ export const scheduleConfig = [
   }, {
     label: scheduleGroupLabel.younger,
     children: [{
-      label: 'Kreatywne warsztaty plastyczne (wiek\u00A07-11 lat)',
+      label: 'Kreatywne warsztaty plastyczne (7-11\u00A0lat)',
       singlePrice: 45,
       multiPrice: 160,
       event: [{
-        day: 'wtorek',
+        day: 'Wtorek',
         shortDay: 'wt',
         hour: '17:45-18:45',
         time: '1.0h'
       }]
     }, {
-      label: 'Pracownia Małego Architekta czyli zabawa makietą i formą przestrzenną (wiek\u00A07-11 lat)',
+      label: 'Pracownia Małego Architekta czyli zabawa makietą i formą przestrzenną (7-11\u00A0lat)',
       singlePrice: 50,
       multiPrice: 180,
       event: [{
-        day: 'wtorek',
+        day: 'Wtorek',
         shortDay: 'wt',
         hour: '16:30-17:30',
         time: '1.0h'
@@ -111,7 +111,7 @@ export const scheduleConfig = [
       singlePrice: 50,
       multiPrice: 180,
       event: [{
-        day: 'czwartek',
+        day: 'Czwartek',
         shortDay: 'Czw',
         hour: '16:30-17:30',
         time: '1.0h'
@@ -125,7 +125,7 @@ export const scheduleConfig = [
       singlePrice: 60,
       multiPrice: 220,
       event: [{
-        day: 'wtorek',
+        day: 'Wtorek',
         shortDay: 'wt',
         hour: '17:45-18:45',
         time: '1.5h'
@@ -136,7 +136,7 @@ export const scheduleConfig = [
       singlePrice: 55,
       multiPrice: 200,
       event: [{
-        day: 'wtorek',
+        day: 'Wtorek',
         shortDay: 'wt',
         hour: '16:00-17:30',
         time: '1.5h'
@@ -148,7 +148,7 @@ export const scheduleConfig = [
       multiPrice: 220,
       event: [
         {
-          day: 'czwartek',
+          day: 'Czwartek',
           shortDay: 'Czw',
           hour: '18:00-19:30',
           time: '1.5h'
@@ -159,7 +159,7 @@ export const scheduleConfig = [
       singlePrice: 55,
       multiPrice: 200,
       event: [{
-        day: 'czwartek',
+        day: 'Czwartek',
         shortDay: 'Czw',
         hour: '16:30-18:00',
         time: '1.5h'
@@ -174,7 +174,7 @@ export const scheduleConfig = [
       singlePrice: 60,
       multiPrice: null,
       event: [{
-        day: 'sobota',
+        day: 'Sobota',
         shortDay: 'Sb',
         hour: '10:30-12:00',
         time: '1.5h'
@@ -185,7 +185,7 @@ export const scheduleConfig = [
       singlePrice: 50,
       multiPrice: null,
       event: [{
-        day: 'sobota',
+        day: 'Sobota',
         shortDay: 'Sb',
         hour: '10:30-12:00',
         time: '1.5h'
@@ -196,7 +196,7 @@ export const scheduleConfig = [
       singlePrice: 55,
       multiPrice: null,
       event: [{
-        day: 'piątek',
+        day: 'Piątek',
         shortDay: 'Pt',
         hour: '17:30-19:00',
         time: '1.5h'
@@ -210,7 +210,7 @@ export const scheduleConfig = [
       singlePrice: 50,
       multiPrice: 180,
       event: [{
-        day: 'sobota',
+        day: 'Sobota',
         shortDay: 'Sb',
         hour: '12:00-13:00',
         time: '1.0h'
@@ -221,7 +221,7 @@ export const scheduleConfig = [
       singlePrice: 50,
       multiPrice: 180,
       event: [{
-        day: 'sobota',
+        day: 'Sobota',
         shortDay: 'Sb',
         hour: '13:00-14:00',
         time: '1.0h'
@@ -232,7 +232,7 @@ export const scheduleConfig = [
       singlePrice: null,
       multiPrice: null,
       event: [{
-        day: 'środa',
+        day: 'Środa',
         shortDay: 'Śr',
         hour: 'ustal. indyw.',
         time: '1.0h'
@@ -243,7 +243,7 @@ export const scheduleConfig = [
       singlePrice: null,
       multiPrice: null,
       event: [{
-        day: 'środa',
+        day: 'Środa',
         shortDay: 'Śr',
         hour: 'ustal. indyw.',
         time: '1.0h'
@@ -256,7 +256,7 @@ export const scheduleConfig = [
       singlePrice: 25,
       multiPrice: 90,
       event: [{
-        day: 'poniedziałek',
+        day: 'Poniedziałek',
         shortDay: 'Pn',
         hour: '12:30-14:30',
         time: '2.0h'
