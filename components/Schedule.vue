@@ -11,18 +11,36 @@
         </div>
         <div class="schedule__event-content">
           <div v-for="event in child.event" :key="event.hour" class="schedule__event-content-row">
-            <div class="mobile-only" style="flex: 1">
-              {{ event.shortDay }}
-            </div>
-            <div class="desktop-only" style="flex: 1">
+            <div class="schedule__event-content-column">
               {{ event.day }}
             </div>
-            <div style="flex: 1">
+            <div class="schedule__event-content-column">
               {{ event.hour }}
             </div>
-            <div style="flex: 1">
+            <div class="schedule__event-content-column">
               {{ event.time }}
             </div>
+          </div>
+        </div>
+        <div class="schedule__price-content">
+          <div>
+            <div
+              class="display-900-down tooltip"
+              data-tooltip="Zniżka dla rodzeństwa i przyjaciół - przyjdź z siostrą, bratem, przyjacielem, a oboje otrzymacie zniżkę na
+pojedyncze zajęcia -10 zł/os."
+            >
+              Pojedyncze zajęcia<sup>?</sup>
+            </div>
+            <div>{{ `${child.singlePrice}zł` || 'ustal. indyw.' }}</div>
+          </div>
+          <div>
+            <div
+              class="display-900-down tooltip"
+              data-tooltip="karnet ważny 30 dni, istnieje możliwość odrobienia zajęć w przypadku nieobecności"
+            >
+              Karnet (4 wejścia)<sup>?</sup>
+            </div>
+            <div>{{ `${child.multiPrice}zł` || 'ustal. indyw.' }}</div>
           </div>
         </div>
       </div>

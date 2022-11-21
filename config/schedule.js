@@ -39,7 +39,20 @@ export const scheduleConfig = [
     label: scheduleGroupLabel.baby,
     children: [
       {
+        label: 'Muzykoterapia (wiek\u00A06-36m)',
+        singlePrice: 25,
+        multiPrice: 90,
+        event: [{
+          day: 'sobota',
+          shortDay: 'sb',
+          hour: '10-30-11:00',
+          time: '0.5h'
+        }]
+      },
+      {
         label: 'Zabawy plastyczne (2-3\u00A0lata)',
+        singlePrice: 35,
+        multiPrice: 120,
         event: [{
           day: 'środa',
           shortDay: 'śr',
@@ -49,6 +62,8 @@ export const scheduleConfig = [
       },
       {
         label: 'Teatr Kolorów czyli zajęcia plastyczne z opowieścią (3-6\u00A0lat)',
+        singlePrice: 45,
+        multiPrice: 160,
         event: [{
           day: 'środa',
           shortDay: 'Śr',
@@ -58,6 +73,8 @@ export const scheduleConfig = [
       },
       {
         label: 'KreAktywne Soboty rozwojowe zajęcia muzyczno-plastyczne (4-6\u00A0lat)',
+        singlePrice: 45,
+        multiPrice: 160,
         event: [{
           day: 'sobota',
           shortDay: 'Sb',
@@ -65,28 +82,23 @@ export const scheduleConfig = [
           time: '1.0h'
         }
         ]
-      }, {
-        label: 'Muzykoterapia (wiek\u00A06-36m)',
-        event: [{
-          day: 'sobota',
-          shortDay: 'sb',
-          hour: '10-30-11:00',
-          time: '0.5h'
-        }]
       }]
   }, {
     label: scheduleGroupLabel.younger,
     children: [{
       label: 'Kreatywne warsztaty plastyczne (wiek\u00A07-11 lat)',
+      singlePrice: 45,
+      multiPrice: 160,
       event: [{
         day: 'wtorek',
         shortDay: 'wt',
         hour: '17:45-18:45',
         time: '1.0h'
       }]
-    },
-    {
+    }, {
       label: 'Pracownia Małego Architekta czyli zabawa makietą i formą przestrzenną (wiek\u00A07-11 lat)',
+      singlePrice: 50,
+      multiPrice: 180,
       event: [{
         day: 'wtorek',
         shortDay: 'wt',
@@ -96,6 +108,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Ceramika czyli zabawa w glinie (7-11\u00A0lat)',
+      singlePrice: 50,
+      multiPrice: 180,
       event: [{
         day: 'czwartek',
         shortDay: 'Czw',
@@ -108,6 +122,8 @@ export const scheduleConfig = [
     label: scheduleGroupLabel.older,
     children: [{
       label: 'Malarstwo (wiek:\u00A012+)',
+      singlePrice: 60,
+      multiPrice: 220,
       event: [{
         day: 'wtorek',
         shortDay: 'wt',
@@ -117,6 +133,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Szkoła rysunku (wiek:\u00A012+)',
+      singlePrice: 55,
+      multiPrice: 200,
       event: [{
         day: 'wtorek',
         shortDay: 'wt',
@@ -126,6 +144,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Ceramika (wiek:\u00A012+)',
+      singlePrice: 60,
+      multiPrice: 220,
       event: [
         {
           day: 'czwartek',
@@ -136,6 +156,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Akwarele (wiek:\u00A010+)',
+      singlePrice: 55,
+      multiPrice: 200,
       event: [{
         day: 'czwartek',
         shortDay: 'Czw',
@@ -149,6 +171,8 @@ export const scheduleConfig = [
     label: scheduleGroupLabel.all,
     children: [{
       label: 'Ceramika',
+      singlePrice: 60,
+      multiPrice: null,
       event: [{
         day: 'sobota',
         shortDay: 'Sb',
@@ -158,6 +182,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Łyżkarstwo czyli od pieńka do łyżki',
+      singlePrice: 50,
+      multiPrice: null,
       event: [{
         day: 'sobota',
         shortDay: 'Sb',
@@ -167,6 +193,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Ręcznie robione',
+      singlePrice: 55,
+      multiPrice: null,
       event: [{
         day: 'piątek',
         shortDay: 'Pt',
@@ -179,6 +207,8 @@ export const scheduleConfig = [
     label: scheduleGroupLabel.music,
     children: [{
       label: 'Ukulele (gr.\u00A0początkująca)',
+      singlePrice: 50,
+      multiPrice: 180,
       event: [{
         day: 'sobota',
         shortDay: 'Sb',
@@ -188,6 +218,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Ukulele (gr.\u00A0zaawansowana)',
+      singlePrice: 50,
+      multiPrice: 180,
       event: [{
         day: 'sobota',
         shortDay: 'Sb',
@@ -197,6 +229,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Gitara (zajęcia indywidualne lub duet)',
+      singlePrice: null,
+      multiPrice: null,
       event: [{
         day: 'środa',
         shortDay: 'Śr',
@@ -206,6 +240,8 @@ export const scheduleConfig = [
     },
     {
       label: 'Muzykoterapia (zajęcia\u00A0indywidualne)',
+      singlePrice: null,
+      multiPrice: null,
       event: [{
         day: 'środa',
         shortDay: 'Śr',
@@ -217,6 +253,8 @@ export const scheduleConfig = [
     label: scheduleGroupLabel.senior,
     children: [{
       label: 'Ogród sztuk (zajęcia interdyscyplinarne)',
+      singlePrice: 25,
+      multiPrice: 90,
       event: [{
         day: 'poniedziałek',
         shortDay: 'Pn',

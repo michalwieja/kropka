@@ -18,6 +18,10 @@
     padding: 10px;
     font-weight: bold;
     gap: 10px;
+
+    @media (max-width: $break-900) {
+      display: none;
+    }
   }
 
   &__group-label {
@@ -32,6 +36,10 @@
     display: flex;
     padding: 10px;
     gap: 10px;
+
+    @media (max-width: $break-900) {
+      flex-direction: column;
+    }
   }
 
   &__event-row:not(:last-child) {
@@ -47,10 +55,47 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+
+  }
+
+  &__event-content-column {
+    flex: 1;
+    @media (max-width: $break-900) {
+      flex: unset;
+    }
   }
 
   &__event-content-row {
     display: flex;
     gap: 10px;
+  }
+
+  &__price-content {
+    position: relative;
+    display: flex;
+    flex: 2;
+
+    @media (max-width: $break-900) {
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    & > div {
+      flex: 1;
+      display: flex;
+      @media (max-width: $break-900) {
+        flex: unset;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+
+.display-900-down {
+  display: none;
+  @media (max-width: $break-900) {
+    display: block;
   }
 }

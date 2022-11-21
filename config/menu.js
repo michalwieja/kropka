@@ -15,10 +15,10 @@ export default [
     path: '/grafik',
     name: 'Grafik'
   },
-  {
-    path: '/cennik',
-    name: 'Cennik'
-  },
+  // {
+  //   path: '/cennik',
+  //   name: 'Cennik'
+  // },
   // {
   //   path: '/galeria',
   //   name: 'Galeria'
