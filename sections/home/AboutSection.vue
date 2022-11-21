@@ -18,25 +18,28 @@
           </h2>
           <h3 class="about-section__text">
             To kreatywna przestrzeń na mapie
-            <span style="font-weight: 500">Tychów</span>
-            . Miejsce, które powstało by <span style="font-weight: 500">pobudzać</span> do
-            artystycznego działania małych, młodych i dorosłych.
+            <span style="font-weight: 500">Tychów.</span>
+            Miejsce, które powstało by <span style="font-weight: 500">pobudzać</span> do
+            artystycznego działania małych, młodych i&nbsp;dorosłych.
           </h3>
           <h3>
             Chcemy pokazać, że obcowanie ze sztuką to zabawa, ale
-            też, że zajęcia kreatywne mają wpływ na na <span style="font-weight: 500">różne aspekty życia</span>
+            też, że zajęcia kreatywne mają wpływ na <span style="font-weight: 500">różne aspekty życia</span>
             ukazując jego
-            wielowymiarowość. Kształtują wrażliwośc i otwierają na świat. Pobudzają do
-            doświadczania, szukania rozwiązań, odkrywania nowego. Ufamy wyobraźni i chcemy by to ona
+            wielowymiarowość. Kształtują wrażliwośc i&nbsp;otwierają na świat. Pobudzają do
+            doświadczania, szukania rozwiązań, odkrywania nowego. Ufamy wyobraźni i&nbsp;chcemy by
+            to ona
             była przewodnikiem na naszych warsztatach.
           </h3>
           <h2>
-            Kawiarnia i kącik dla rodzica
+            Kawiarnia i&nbsp;kącik dla rodzica
           </h2>
           <h3>
-            Kropka to też miejsce <span style="font-weight: 500">spotkań, rozmów i chilloutu.</span>
-            Ugościmy Was w naszej kawiarnii. Przytulna i kameralna przestrzeń, pyszna włoska kawa i
-            oczywiście coś słodkiego - brzmi dobrze prawda?
+            Kropka to też miejsce <span
+              style="font-weight: 500"
+            >spotkań, rozmów i&nbsp;chilloutu.</span>
+            Ugościmy Was w naszej kawiarnii. Przytulna i&nbsp;kameralna przestrzeń, pyszna włoska
+            kawa i&nbsp;oczywiście coś słodkiego - brzmi dobrze prawda?
           </h3>
         </div>
       </div>

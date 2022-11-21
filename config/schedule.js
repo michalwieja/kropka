@@ -9,7 +9,7 @@ export const scheduleGroupLabel = {
 
 export const selectLabels = [
   {
-    label: 'Zajęcia dla maluszków i przedszkolaków',
+    label: 'Zajęcia dla maluszków',
     key: 'baby'
   },
   {
@@ -61,7 +61,7 @@ export const scheduleConfig = [
         }]
       },
       {
-        label: 'Teatr Kolorów czyli zajęcia plastyczne z opowieścią (3-6\u00A0lat)',
+        label: 'Teatr Kolorów czyli zajęcia plastyczne z\u00A0opowieścią\u00A0(3-\u20606\u00A0lat)',
         singlePrice: 45,
         multiPrice: 160,
         event: [{
@@ -72,7 +72,7 @@ export const scheduleConfig = [
         }]
       },
       {
-        label: 'KreAktywne Soboty rozwojowe zajęcia muzyczno-plastyczne (4-6\u00A0lat)',
+        label: 'KreAktywne Soboty rozwojowe zajęcia muzyczno-plastyczne (4-\u20606\u00A0lat)',
         singlePrice: 45,
         multiPrice: 160,
         event: [{
@@ -86,7 +86,7 @@ export const scheduleConfig = [
   }, {
     label: scheduleGroupLabel.younger,
     children: [{
-      label: 'Kreatywne warsztaty plastyczne (7-11\u00A0lat)',
+      label: 'Kreatywne warsztaty plastyczne (7-\u206011\u00A0lat)',
       singlePrice: 45,
       multiPrice: 160,
       event: [{
@@ -96,7 +96,7 @@ export const scheduleConfig = [
         time: '1.0h'
       }]
     }, {
-      label: 'Pracownia Małego Architekta czyli zabawa makietą i formą przestrzenną (7-11\u00A0lat)',
+      label: 'Pracownia Małego Architekta czyli zabawa makietą i\u00A0formą przestrzenną (7-\u206011\u00A0lat)',
       singlePrice: 50,
       multiPrice: 180,
       event: [{
@@ -107,7 +107,7 @@ export const scheduleConfig = [
       }]
     },
     {
-      label: 'Ceramika czyli zabawa w glinie (7-11\u00A0lat)',
+      label: 'Ceramika czyli zabawa w\u00A0glinie (7-\u206011\u00A0lat)',
       singlePrice: 50,
       multiPrice: 180,
       event: [{
