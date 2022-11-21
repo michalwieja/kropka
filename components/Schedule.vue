@@ -31,7 +31,9 @@ pojedyncze zajęcia -10 zł/os."
             >
               Pojedyncze zajęcia<sup>?</sup>
             </div>
-            <div>{{ `${child.singlePrice}zł` || 'ustal. indyw.' }}</div>
+            <div>
+              {{ child.singlePrice ? `${child.singlePrice}zł` : 'ustal. indyw.' }}
+            </div>
           </div>
           <div>
             <div
@@ -40,7 +42,9 @@ pojedyncze zajęcia -10 zł/os."
             >
               Karnet (4 wejścia)<sup>?</sup>
             </div>
-            <div>{{ `${child.multiPrice}zł` || 'ustal. indyw.' }}</div>
+            <div>
+              {{ child.multiPrice ? `${child.multiPrice}zł` : 'ustal. indyw.' }}
+            </div>
           </div>
         </div>
       </div>
