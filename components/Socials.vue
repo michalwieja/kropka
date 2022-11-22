@@ -1,6 +1,6 @@
 <template>
   <div class="socials">
-    <a href="https://facebook.com" target="_blank">
+    <a href="https://www.facebook.com/profile.php?id=100085151987121" target="_blank">
       <svg
         fill="none"
         height="60"
@@ -23,7 +23,7 @@
         </defs>
       </svg>
     </a>
-    <a href="https://www.instagram.com" target="_blank">
+    <a href="https://www.instagram.com/kropka.pracownia_artystyczna/" target="_blank">
       <svg
         fill="none"
         height="60"

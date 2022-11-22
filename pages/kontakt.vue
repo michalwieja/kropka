@@ -20,12 +20,16 @@
         <div class="contact__row">
           <EmailIcon height="32" />
           <h3>
-            kaart.kontakt@gmail.com
+            <a href="mailto:kontakt@kropka.art">
+              kontakt@kropka.art
+            </a>
           </h3>
         </div>
         <div class="contact__row">
           <PhoneIcon height="32" />
-          <h3>690 398 893</h3>
+          <h3>
+            <a href="tel:690 368 863">690 398 893</a>
+          </h3>
         </div>
       </div>
     </div>
