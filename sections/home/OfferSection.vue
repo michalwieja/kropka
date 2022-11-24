@@ -70,6 +70,40 @@
           </span>
         </div>
       </div>
+      <SectionTitle
+        subtitle="Muzyka"
+      />
+      <div class="offer__cards">
+        <div
+          v-for="card in musicOfferConfig"
+          :key="card.label"
+          class="offer__card"
+          @click="()=>handleClick(card)"
+        >
+          <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
+          <img :alt="card.label" :src="`offer/${card.photo}`" class="bg-img">
+          <span class="label">
+            {{ card.label }}
+          </span>
+        </div>
+      </div>
+      <SectionTitle
+        subtitle="Pozostałe"
+      />
+      <div class="offer__cards">
+        <div
+          v-for="card in otherOfferConfig"
+          :key="card.label"
+          class="offer__card"
+          @click="()=>handleClick(card)"
+        >
+          <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
+          <img :alt="card.label" :src="`offer/${card.photo}`" class="bg-img">
+          <span class="label">
+            {{ card.label }}
+          </span>
+        </div>
+      </div>
 
       <ModalComponent v-if="activeCard" @close-modal="activeCard=null">
         <div class="photo" style="border-radius: 20px; overflow: hidden">
@@ -91,7 +125,9 @@ import SectionTitle from '../../components/SectionTitle.vue'
 import ModalComponent from '../../components/ModalComponent.vue'
 import {
   allOfferConfig,
+  musicOfferConfig,
   olderOfferConfig,
+  otherOfferConfig,
   youngerOfferConfig,
   youngestOfferConfig
 } from '../../config/offer-config.js'
@@ -108,6 +144,8 @@ export default {
       youngerOfferConfig,
       olderOfferConfig,
       allOfferConfig,
+      otherOfferConfig,
+      musicOfferConfig,
       activeCard: null
     }
   },

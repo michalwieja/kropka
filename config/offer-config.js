@@ -7,18 +7,18 @@ export const youngestOfferConfig = [
   },
   {
     label: 'ZABAWY PLASTYCZNE',
-    photo: '2.jpg',
+    photo: 'zabawy-plastyczne.jpg',
     desc: 'Dlaczego zajęcia plastyczne są ważne w rozwoju dziecka? Ponieważ doskonalą umiejętności manuale, wzmacniają poczucie własnej wartości oraz indywidualizmu. Wyzwalają potencjał twórczy oraz stymulują dziecięcą wyobraźnię. Zabawy plastyczne to zajęcia dostosowane do wieku. Będziemy bawić się kolorami, fakturami, kształtami. Tworzyć i\u00A0budować. Każde zajęcia to nowa przygoda. Zapraszamy dzieci z\u00A0opiekunami. Odkryjemy przed Wami pomysły na aktywne wspieranie rozwoju dziecka.'
   },
   {
     label: 'TEATR KOLORÓW CZYLI AKWARELOWE MALOWANIE Z\u00A0OPOWIEŚCIĄ',
     photo: '3.jpg',
-    desc: 'Akwarelowe malarstwo dzieci to kraina kolorów, światła i\u00A0piękna. Nie musi spełniać naszych oczekiwań. Na zajęciach pozwalamy dziecku być sobą, wyzwolić głębię uczuć, sprawić by dziecko było zadowolone z siebie. (....) ←—-- do dokończenia/zmiany/nie mam weny\n'
+    desc: 'Akwarelowe malarstwo dzieci to kraina kolorów, światła i\u00A0piękna. Na zajęciach pozwalamy dziecku być sobą, wyzwolić głębię uczuć, sprawić by dziecko było zadowolone z\u00A0siebie. Poznajemy technike akwareli.'
   },
   {
     label: 'KREAKTYWNE SOBOTY CZYLI ZAJĘCIA MUZYCZNO-PLASTYCZNE',
     photo: '4.jpg',
-    desc: 'Kreatywne soboty to nie zwykłe zajęcia plastyczne/muzyczne. To ekspresja, ruch, swoboda. Będzie zespołowo, projektowo, będzie się działo. Każde zajęcia to nowa aktywność. Tym razem nie będziemy Wam zdradzać na naszym FaceBooku czy Instagramie tematu zajęć. Chcemy Was zaskakiwać! Zapraszamy dzieci z\u00A0opiekunami. Czego możecie się spodziewać……dać\n'
+    desc: 'Kreatywne soboty to nie zwykłe zajęcia plastyczne/muzyczne. To ekspresja, ruch, swoboda. Będzie zespołowo, projektowo, będzie się działo. Każde zajęcia to nowa aktywność. Tym razem nie będziemy Wam zdradzać na naszym FaceBooku czy Instagramie tematu zajęć. Chcemy Was zaskakiwać! Zapraszamy dzieci z\u00A0opiekunami.'
   }
 
 ]
@@ -31,7 +31,7 @@ export const youngerOfferConfig = [
   },
   {
     label: 'PRACOWNIA MAŁEGO ARCHITEKTA CZYLI ZABAWA MAKIETĄ I\u00A0FORMĄ PRZESTRZENNĄ',
-    photo: '6.jpg',
+    photo: 'architekt.jpg',
     desc: 'Edukacja architektoniczna to cudowny sposób na otwarcie głowy, pobudzenie wyobraźni i\u00A0ćwiczenie kreatywności. Będziemy obserwować, analizować, projektować i\u00A0budować. To nie tylko zajęcia plastyczne, to również edukacja architektoniczna. Nauczymy uważnie patrzeć na najbliższe otoczenie, uświadomimy, że jesteśmy odpowiedzialni za przestrzeń wokół nas. Wyprawimy się w głąb historii – pokazuje jak zmieniały się domy i\u00A0miasta. Pozwolimy dzieciom być sobą - zbudować świat na nowo, według własnej koncepcji.'
   },
   {
@@ -44,9 +44,8 @@ export const youngerOfferConfig = [
 export const olderOfferConfig = [
   {
     label: 'AKWARELE',
-    photo: '7.jpg',
-    desc: 'Zachwycają Was akwarele? Nas też! Dlatego stworzyliśmy te zajęcia jako odrębną technikę malarską. Na zajęciach poznasz różne techniki pracy z akwarelą. Spróbujesz nadać kierunek plamie koloru, tak aby płynęła tam gdzie chcesz i\u00A0tak, jak chcesz. Pracę warsztatową zaczniemy od prostych technik pracy z\u00A0farbami akwarelowymi. A\u00A0gdy opanujemy podstawy będziemy szkolić warsztat ucząc się tworzyć przezroczystości, plany, wybieranie koloru, bądź dokładania go warstwami. Będziemy tworzyć kartki, które później każdy z\u00A0uczestników będzie mógł podarować bliskim. Zajęcia dla trochę starszych dzieci i\u00A0dorosłych.' +
-      '* Bez zachwytu? Zajrzyj do galerii naszego śląskiego akwarelisty - Grzegorza Chudego. Szybko do nas wrócisz, żeby nauczyć się malować  tak pięknie jak on.\n'
+    photo: 'akwarele.jpg',
+    desc: 'Zachwycają Was akwarele? Nas też! Dlatego stworzyliśmy te zajęcia jako odrębną technikę malarską. Na zajęciach poznasz różne techniki pracy z\u00A0akwarelą. Spróbujesz nadać kierunek plamie koloru, tak aby płynęła tam gdzie chcesz i\u00A0tak, jak chcesz. Pracę warsztatową zaczniemy od prostych technik pracy z\u00A0farbami akwarelowymi. A\u00A0gdy opanujemy podstawy będziemy szkolić warsztat ucząc się tworzyć przezroczystości, wybieranie koloru, bądź dokładania go warstwami. Będziemy tworzyć kartki, które później każdy z\u00A0uczestników będzie mógł podarować bliskim. Zajęcia dla trochę starszych dzieci i\u00A0dorosłych.* Bez zachwytu? Zajrzyj do galerii naszego śląskiego akwarelisty - Grzegorza Chudego. Szybko do nas wrócisz, żeby nauczyć się malować tak pięknie jak on.'
   },
   {
     label: 'MALARSTWO',
@@ -55,8 +54,13 @@ export const olderOfferConfig = [
   },
   {
     label: 'CERAMIKA ',
-    photo: '1.jpg',
+    photo: 'ceramika-older.jpg',
     desc: 'To zajęcia dla tych, którzy chcą i\u00A0potrafią z gliną pracować dłużej, znają już podstawowe techniki lepienia, ugniatania i\u00A0dbania o glinę oraz mają gotowość szkliwienia. Zapraszamy dzieci powyżej 8\u00A0roku życia.'
+  },
+  {
+    label: 'SZKOŁA RYSUNKU',
+    photo: '5.jpg',
+    desc: 'Zajęcia stworzone dla osób, które chcą poznać techniki rysunkowe. Dowiedzieć się jak szkicować zgodnie z\u00A0proporcjami, odwzorowywać tekstury, cieniować i\u00A0ćwiczyć swoje umiejętności w\u00A0sposób praktyczny. Oddajemy w\u00A0Wasze ręce w\u00A0pełni wyposażoną pracownię, wsparcie najlepszych nauczycieli oraz zapewniamy kameralną atmosferę.'
   }
 ]
 
@@ -74,7 +78,31 @@ export const allOfferConfig = [
   },
   {
     label: 'CERAMIKA ',
-    photo: '1.jpg',
+    photo: 'ceramika.jpg',
     desc: 'Cykl sobotnich warsztatów stworzony z myślą o\u00A0rodzinnym sobotnim spędzaniu czasu. Dla tych, którzy chcą i\u00A0potrafią z gliną pracować dłużej, znają już podstawowe techniki lepienia, ugniatania i\u00A0dbania o glinę oraz mają gotowość szkliwienia, jak również dla tych, którzy dopiero rozpoczynają swoją przygodę z\u00A0gliną. Zapraszamy wszystkich - małych i\u00A0dużych. Terminów i\u00A0tematów zajęć szukaj na naszym FaceBooku i\u00A0Instagramie.'
+  }
+]
+
+export const musicOfferConfig = [
+  {
+    label: 'Ukulele ',
+    photo: '7.jpg'
+  },
+  {
+    label: 'Gitara',
+    photo: '8.jpg'
+  }
+]
+
+export const otherOfferConfig = [
+  {
+    label: 'Ogród sztuk (zajęcia interdyscyplinarne dla seniorów)',
+    photo: '7.jpg',
+    desc: 'Test'
+  },
+  {
+    label: 'Oferta dla szkól',
+    photo: '8.jpg',
+    desc: 'Test'
   }
 ]

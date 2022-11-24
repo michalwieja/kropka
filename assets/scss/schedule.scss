@@ -46,8 +46,13 @@
     border-bottom: 1px solid gray;
   }
 
+  &__event-row:nth-child(odd) {
+    background: rgba($primaryGreen, .2);
+  }
+
   &__event-label {
     flex: 3;
+    font-weight: bold;
   }
 
   &__event-content {
