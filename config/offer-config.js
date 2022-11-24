@@ -1,7 +1,7 @@
 export const youngestOfferConfig = [
   {
     label: 'MUZYKOTERAPIA ',
-    photo: '1.jpg',
+    photo: 'muzykoterapia.jpg',
     desc: 'Czyli  wspieranie rozwoju dzieci przez muzykę. Muzyka rozwija emocjonalnie i\u00A0twórczo dzieci. Na zajęcia możesz przyjść z\u00A0maluszkiem od 6 miesiąca życia. To bardzo dobry moment żeby zacząć swoją przygodę, spotkać się z\u00A0innymi i\u00A0wspólnie poznawać świat muzyki.',
     list: ['Dobra zabawa', 'Rozwój emocjonalny', 'Uwrażliwianie', 'Wspólny czas']
   },
@@ -44,7 +44,7 @@ export const youngerOfferConfig = [
 export const olderOfferConfig = [
   {
     label: 'AKWARELE',
-    photo: 'akwarele.jpg',
+    photo: 'akwarele-older.jpg',
     desc: 'Zachwycają Was akwarele? Nas też! Dlatego stworzyliśmy te zajęcia jako odrębną technikę malarską. Na zajęciach poznasz różne techniki pracy z\u00A0akwarelą. Spróbujesz nadać kierunek plamie koloru, tak aby płynęła tam gdzie chcesz i\u00A0tak, jak chcesz. Pracę warsztatową zaczniemy od prostych technik pracy z\u00A0farbami akwarelowymi. A\u00A0gdy opanujemy podstawy będziemy szkolić warsztat ucząc się tworzyć przezroczystości, wybieranie koloru, bądź dokładania go warstwami. Będziemy tworzyć kartki, które później każdy z\u00A0uczestników będzie mógł podarować bliskim. Zajęcia dla trochę starszych dzieci i\u00A0dorosłych.* Bez zachwytu? Zajrzyj do galerii naszego śląskiego akwarelisty - Grzegorza Chudego. Szybko do nas wrócisz, żeby nauczyć się malować tak pięknie jak on.'
   },
   {
@@ -102,7 +102,7 @@ export const otherOfferConfig = [
   },
   {
     label: 'Oferta dla szkól',
-    photo: '8.jpg',
+    photo: 'szkola.jpg',
     desc: 'Test'
   }
 ]
