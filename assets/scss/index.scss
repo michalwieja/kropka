@@ -44,8 +44,11 @@ body {
 }
 
 .site {
-  padding-top: $headerHeight;
+  padding-top: $headerHeight+4vh;
   position: relative;
+  @media (max-width: $break-1200) {
+    padding-top: $headerHeight;
+  }
 }
 
 .container {

@@ -15,9 +15,11 @@
         v-for="(el,i) in parsed"
         :key="i"
         :class="`gallery__img-wrapper ${i%5 ===0 && 'big'} ${i%2===0 &&'horizontal'}`"
+        data-aos="fade-in"
+        data-aos-duration="1000"
         @click="index =i"
       >
-        <img :src="`${el}`" class="gallery__img" loading="lazy">
+        <img :src="`${el}`" class="gallery__img" loading="lazy" @load="handleLoad">
       </div>
     </div>
   </div>
@@ -40,6 +42,11 @@ export default {
   },
   mounted () {
     this.parsed = this.files.map(file => `/gallery/${file}`)
+  },
+  methods: {
+    handleLoad () {
+      console.log('load')
+    }
   }
 }
 </script>

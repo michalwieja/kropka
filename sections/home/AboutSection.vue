@@ -1,8 +1,11 @@
 <template>
   <section id="about" class="about-section site">
     <div class="container">
-      <SectionTitle subtitle="Miejsce stworzone z pasji" title="Kropka" />
-      <div class="about-section__content">
+      <SectionTitle
+        subtitle="Miejsce stworzone z pasji"
+        title="Kropka"
+      />
+      <div class="about-section__content" data-aos="fade-left" data-aos-duration="1000">
         <div>
           <div class="about-section__photo about-section__photo--1">
             <img alt="rysunek" src="/offer/pracownia.jpg">

@@ -1,6 +1,10 @@
 <template>
   <div class="hero">
-    <div class="hero__text">
+    <div
+      class="hero__text"
+      data-aos="faed-in"
+      data-aos-duration="1000"
+    >
       <div class="hero__title">
         Pracownia artystyczna <br>
         i kawiarnia

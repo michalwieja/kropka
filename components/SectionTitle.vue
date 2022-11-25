@@ -1,5 +1,9 @@
 <template>
-  <div class="section-title">
+  <div
+    class="section-title"
+    data-aos="fade-right"
+    data-aos-duration="1000"
+  >
     <div class="section-title__title">
       {{ title }}
     </div>

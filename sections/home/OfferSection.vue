@@ -7,9 +7,11 @@
       />
       <div class="offer__cards">
         <div
-          v-for="card in youngestOfferConfig"
+          v-for="(card,i) in youngestOfferConfig"
           :key="card.label"
+          :data-aos-delay="`${i*100}`"
           class="offer__card"
+          data-aos="fade-left"
           @click="()=>handleClick(card)"
         >
           <img :src="`offer/${card.photo}`" alt="" class="top-img">
@@ -23,9 +25,12 @@
       />
       <div class="offer__cards">
         <div
-          v-for="card in youngerOfferConfig"
+          v-for="(card,i) in youngerOfferConfig"
           :key="card.label"
+          :data-aos-delay="`${i*100}`"
+
           class="offer__card"
+          data-aos="fade-left"
           @click="()=>handleClick(card)"
         >
           <img :src="`offer/${card.photo}`" alt="" class="top-img">
@@ -39,9 +44,12 @@
       />
       <div class="offer__cards">
         <div
-          v-for="card in olderOfferConfig"
+          v-for="(card,i) in olderOfferConfig"
           :key="card.label"
+          :data-aos-delay="`${i*100}`"
+
           class="offer__card"
+          data-aos="fade-left"
           @click="()=>handleClick(card)"
         >
           <img :src="`offer/${card.photo}`" alt="" class="top-img">
@@ -53,11 +61,13 @@
       <SectionTitle
         subtitle="Zajęcia dla wszystkich"
       />
-      <div class="offer__cards">
+      <div class="offer__cards" data-aos="fade-left" data-aos-duration="1000">
         <div
-          v-for="card in allOfferConfig"
+          v-for="(card,i) in allOfferConfig"
           :key="card.label"
+          :data-aos-delay="`${i*100}`"
           class="offer__card"
+          data-aos="fade-left"
           @click="()=>handleClick(card)"
         >
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
@@ -71,9 +81,11 @@
       />
       <div class="offer__cards">
         <div
-          v-for="card in musicOfferConfig"
+          v-for="(card,i) in musicOfferConfig"
           :key="card.label"
+          :data-aos-delay="`${i*100}`"
           class="offer__card"
+          data-aos="fade-left"
           @click="()=>handleClick(card)"
         >
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
@@ -87,9 +99,11 @@
       />
       <div class="offer__cards">
         <div
-          v-for="card in otherOfferConfig"
+          v-for="(card,i) in otherOfferConfig"
           :key="card.label"
+          :data-aos-delay="`${i*100}`"
           class="offer__card"
+          data-aos="fade-left"
           @click="()=>handleClick(card)"
         >
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
