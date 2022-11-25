@@ -5,19 +5,19 @@
       :effect="'fade'"
       :full-screen="true"
       :index="index"
-      :items="files"
+      :items="parsed"
       :use-zoom-bar="true"
       slideshow-color-bar="#ffffff"
       @close="index = null"
     />
     <div class="gallery">
       <div
-        v-for="(el,i) in files"
+        v-for="(el,i) in parsed"
         :key="i"
         :class="`gallery__img-wrapper ${i%5 ===0 && 'big'} ${i%2===0 &&'horizontal'}`"
-        @click="()=>handleClick(i)"
+        @click="index =i"
       >
-        <img :src="`offer/${el}`" class="gallery__img">
+        <img :src="`${el}`" class="gallery__img" loading="lazy">
       </div>
     </div>
   </div>
@@ -34,13 +34,12 @@ export default {
   data () {
     return {
       files,
-      index: null
+      index: null,
+      parsed: null
     }
   },
-  methods: {
-    handleClick (i) {
-      console.log(i)
-    }
+  mounted () {
+    this.parsed = this.files.map(file => `/gallery/${file}`)
   }
 }
 </script>
@@ -58,7 +57,13 @@ export default {
   @media (max-width: 900px) {
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 120px;
+  }
 
+  &__img-wrapper {
+    background: #000;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
   }
 
   &__img {
@@ -66,8 +71,11 @@ export default {
     height: 100%;
     object-fit: cover;
     display: block;
-    border-radius: 20px;
-    overflow: hidden;
+    transition: .3s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   .horizontal {

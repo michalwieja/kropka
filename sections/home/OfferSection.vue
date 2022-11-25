@@ -13,7 +13,6 @@
           @click="()=>handleClick(card)"
         >
           <img :src="`offer/${card.photo}`" alt="" class="top-img">
-          <img :src="`offer/${card.photo}`" alt="" class="bg-img">
           <span class="label">
             {{ card.label }}
           </span>
@@ -30,7 +29,6 @@
           @click="()=>handleClick(card)"
         >
           <img :src="`offer/${card.photo}`" alt="" class="top-img">
-          <img :src="`offer/${card.photo}`" alt="" class="bg-img">
           <span class="label">
             {{ card.label }}
           </span>
@@ -47,7 +45,6 @@
           @click="()=>handleClick(card)"
         >
           <img :src="`offer/${card.photo}`" alt="" class="top-img">
-          <img :src="`offer/${card.photo}`" alt="" class="bg-img">
           <span class="label">
             {{ card.label }}
           </span>
@@ -64,7 +61,6 @@
           @click="()=>handleClick(card)"
         >
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
-          <img :alt="card.label" :src="`offer/${card.photo}`" class="bg-img">
           <span class="label">
             {{ card.label }}
           </span>
@@ -81,7 +77,6 @@
           @click="()=>handleClick(card)"
         >
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
-          <img :alt="card.label" :src="`offer/${card.photo}`" class="bg-img">
           <span class="label">
             {{ card.label }}
           </span>
@@ -98,7 +93,6 @@
           @click="()=>handleClick(card)"
         >
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
-          <img :alt="card.label" :src="`offer/${card.photo}`" class="bg-img">
           <span class="label">
             {{ card.label }}
           </span>
