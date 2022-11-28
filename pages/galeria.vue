@@ -17,7 +17,7 @@
         :class="`gallery__img-wrapper ${i%5 ===0 && 'big'} ${i%2===0 &&'horizontal'}`"
         @click="index =i"
       >
-        <img :src="`${el}`" class="gallery__img" loading="lazy" @load="handleLoad">
+        <img :src="`${el}`" class="gallery__img" loading="lazy">
       </div>
     </div>
   </div>
@@ -40,11 +40,6 @@ export default {
   },
   mounted () {
     this.parsed = this.files.map(file => `/gallery/${file}`)
-  },
-  methods: {
-    handleLoad () {
-      console.log('load')
-    }
   }
 }
 </script>
@@ -65,7 +60,7 @@ export default {
   }
 
   &__img-wrapper {
-    background: #000;
+    background: #ddd;
     border-radius: 20px;
     overflow: hidden;
     cursor: pointer;

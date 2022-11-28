@@ -10,7 +10,6 @@
         placeholder="Wybierz grupę"
       />
     </div>
-    <!--    <ScheduleFilter :handle-filter="handleFilter" />-->
     <Schedule :filtered-items="filteredItems" />
   </div>
 </template>
@@ -28,7 +27,6 @@ export default {
   components: {
     SectionTitle,
     Schedule,
-    // ScheduleFilter,
     vSelect
 
   },
