@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Kropka',
+    title: 'Kropka - Pracownia artystyczna i kawiarnia',
     htmlAttrs: {
       lang: 'pl'
     },
@@ -17,7 +17,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: ''
+        content: 'To kreatywna przestrzeń na mapie Tychów. Miejsce, które powstało by pobudzać do artystycznego działania małych, młodych i dorosłych.'
       },
       {
         name: 'format-detection',
