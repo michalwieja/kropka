@@ -86,11 +86,13 @@ export const allOfferConfig = [
 export const musicOfferConfig = [
   {
     label: 'Ukulele ',
-    photo: '7.jpg'
+    photo: '7.jpg',
+    disabled: true
   },
   {
     label: 'Gitara',
-    photo: '8.jpg'
+    photo: '8.jpg',
+    disabled: true
   }
 ]
 
@@ -98,11 +100,12 @@ export const otherOfferConfig = [
   {
     label: 'Ogród sztuk (zajęcia interdyscyplinarne dla seniorów)',
     photo: '7.jpg',
-    desc: 'Test'
+    disabled: true
+
   },
   {
     label: 'Oferta dla szkól',
     photo: 'szkola.jpg',
-    desc: 'Test'
+    desc: 'Zapytaj o ofertę'
   }
 ]

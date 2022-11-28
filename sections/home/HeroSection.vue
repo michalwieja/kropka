@@ -16,7 +16,7 @@
         <NuxtLink to="/grafik">
           <CustomButton label="Grafik" secondary />
         </NuxtLink>
-        <a href="https://www.booksy.com" target="_blank">
+        <a href="mailto:kontakt@kropka.art" target="_blank">
           <CustomButton label="Zapisz się" />
         </a>
       </div>

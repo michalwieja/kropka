@@ -159,7 +159,7 @@ export default {
   },
   methods: {
     handleClick (el) {
-      this.activeCard = el
+      if (!el.disabled) { this.activeCard = el }
     }
   }
 }
