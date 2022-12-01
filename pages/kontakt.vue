@@ -5,11 +5,21 @@
     <div class="contact__wrapper">
       <div class="contact__box contact__box--map">
         <GmapMap
-          :center="{lat:10, lng:10}"
-          :zoom="7"
-          map-type-id="terrain"
-          style="width: 100%; height: 100%"
-        />
+          :center="{ lat: 50.13107051042874,
+                     lng: 18.978761442401552 }"
+          :options="mapStyle"
+          :zoom="15"
+          style="width:100%;  height: 100%;"
+        >
+          <GmapMarker
+            v-for="(m, index) in markers"
+            :key="index"
+            :clickable="true"
+            :draggable="true"
+            :position="getPosition(m)"
+            @click="center=m.position"
+          />
+        </GmapMap>
       </div>
       <div class="contact__box contact__box--info">
         <h2>Dane kontaktowe</h2>
@@ -41,6 +51,7 @@ import HomeIcon from '../components/icons/HomeIcon.vue'
 import EmailIcon from '../components/icons/EmailIcon.vue'
 import PhoneIcon from '../components/icons/PhoneIcon.vue'
 import SectionTitle from '../components/SectionTitle.vue'
+import mapComponentConfig from '../config/mapComponentConfig.js'
 
 export default {
   name: 'Kontakt',
@@ -49,6 +60,26 @@ export default {
     PhoneIcon,
     EmailIcon,
     HomeIcon
+  },
+  data () {
+    return {
+      mapStyle: mapComponentConfig,
+      markers: {
+        0: {
+          full_name: 'KROPKA Pracownia Artystyczna. Kawiarnia.',
+          lat: 50.13107051042874,
+          lng: 18.978761442401552
+        }
+      }
+    }
+  },
+  methods: {
+    getPosition (marker) {
+      return {
+        lat: parseFloat(marker.lat),
+        lng: parseFloat(marker.lng)
+      }
+    }
   }
 }
 </script>
