@@ -38,7 +38,7 @@ pojedyncze zajęcia -10 zł/os."
           <div>
             <div
               class="display-900-down tooltip"
-              data-tooltip="karnet ważny 30 dni, istnieje możliwość odrobienia zajęć w przypadku nieobecności"
+              data-tooltip="karnet ważny 60 dni, istnieje możliwość odrobienia zajęć w przypadku nieobecności"
             >
               Karnet (4 wejścia)<sup>?</sup>
             </div>

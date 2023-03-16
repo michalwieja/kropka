@@ -31,11 +31,12 @@ export default {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: 'content'
-      }, {
+        content: 'Kropka. Pracownia artystyczna'
+      },
+      {
         hid: 'og:description',
         property: 'og:description',
-        content: 'content'
+        content: 'To kreatywna przestrzeń na mapie Tychów. Miejsce, które powstało by pobudzać do artystycznego działania małych, młodych i dorosłych.'
       },
       {
         hid: 'og:image',

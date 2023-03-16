@@ -38,7 +38,7 @@
         <div class="contact__row">
           <PhoneIcon height="32" />
           <h3>
-            <a href="tel:690 368 863">690 398 893</a>
+            <a href="tel:690 398 893">690 398 893</a>
           </h3>
         </div>
       </div>
@@ -60,6 +60,7 @@ export default {
     PhoneIcon,
     EmailIcon,
     HomeIcon
+
   },
   data () {
     return {
