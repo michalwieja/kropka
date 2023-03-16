@@ -103,8 +103,14 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
-
+  modules: [
+    '@nuxtjs/dayjs'
+  ],
+  dayjs: {
+    locales: ['pl'],
+    defaultLocale: 'pl',
+    plugins: ['relativeTime', 'advancedFormat']
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     transpile: [/^vue2-google-maps($|\/)/]

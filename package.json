@@ -13,10 +13,12 @@
   },
   "dependencies": {
     "@iconscout/vue-unicons": "^0.0.3",
+    "@nuxtjs/dayjs": "^1.4.1",
     "@nuxtjs/dotenv": "^1.4.1",
     "animejs": "^3.2.1",
     "aos": "^2.3.4",
     "core-js": "^3.19.3",
+    "dayjs": "^1.11.7",
     "graphql": "^16.5.0",
     "graphql-request": "^4.3.0",
     "nuxt": "^2.15.8",

@@ -12,7 +12,7 @@
     </div>
     <div v-for="(date, key) in groupByDate(filteredItems)" :key="date.key">
       <div class="schedule__group-label">
-        {{ key }}
+        {{ $dayjs(key).format('DD MMMM, dddd') }}
       </div>
       <div v-for="event in date" :key="event.id" class="schedule__event-row">
         <div style="flex: 1">
