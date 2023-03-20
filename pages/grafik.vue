@@ -53,11 +53,14 @@ export default {
     }
   },
   computed: {
+    currentItems () {
+      return this.calendar.filter(el => this.$dayjs(el.date, 'DD MMMM YYYY').locale('pl').isAfter(this.$dayjs().subtract(1, 'day')))
+    },
     filteredItems () {
       if (this.filter) {
-        return this.calendar.filter(el => el.title === this.filter)
+        return this.currentItems.filter(el => el.title === this.filter)
       }
-      return calendar
+      return this.currentItems
     }
   },
   methods: {

@@ -1,1 +1,130 @@
-[{"id":"7b2240db-d889-4d80-9dd5-e2347436da47","title":"Ceramika","desc":"kurs dla dzieci (4+)","date":"17 marca","hour":"18:00–19:30","day_of_week":"Piątek"},{"id":"a3645d6f-1b25-4fee-80af-933237728711","title":"Ceramika","desc":"warsztat dla wszystkich","date":"18 marca","hour":"12:30–14:00","day_of_week":"Sobota"},{"id":"0a07f328-cdfc-4f9b-8768-06af2fee306a","title":"Ebru (malowanie na wodzie)","desc":"warsztat dla wszystkich","date":"19 marca","hour":"15:00–16:30","day_of_week":"Niedziela"},{"id":"2132f4da-cfaa-4684-b83b-4ddf90241004","title":"Kreatywne Warsztaty Plastyczne","desc":"kurs dla dzieci (5-10 lat)","date":"21 marca","hour":"17:45–18:45","day_of_week":"Wtorek"},{"id":"4567ae33-3123-49ae-8f67-5fad8396f510","title":"Rysunek","desc":"kurs dla początkujących (młodzież i dorośli)","date":"21 marca","hour":"19:00–20:30","day_of_week":"Wtorek"},{"id":"048cb7d5-7a70-4b3d-a0b3-a588283e91e2","title":"Akwarele","desc":"kurs dla początkujących (młodzież i dorośli)","date":"22 marca","hour":"16:00–17:30","day_of_week":"Środa"},{"id":"486e43f4-6a44-4ceb-8cd2-ae566281ac29","title":"Malarstwo","desc":"kurs dla początkujących (młodzież i dorośli)","date":"23 marca","hour":"09:00–10:30","day_of_week":"Czwartek"},{"id":"f550b93e-3f11-4ad9-a503-c2c0eba50fd1","title":"Ceramika","desc":"kurs dla dzieci (4+)","date":"24 marca","hour":"18:00–19:30","day_of_week":"Piątek"},{"id":"0cb454c5-00d1-4fa9-994e-a46652b81cc2","title":"Ceramika","desc":"warsztat dla wszystkich","date":"25 marca","hour":"12:30–14:00","day_of_week":"Sobota"},{"id":"71799bef-832e-4a46-8f57-35694be1ecd7","title":"Wiosenne wianki","desc":"warsztat dla wszystkich","date":"26 marca","hour":"15:00–17:00","day_of_week":"Niedziela"},{"id":"bab7c7e6-52ca-48ee-a67a-1129ca15d9da","title":"Kreatywne Warsztaty Plastyczne","desc":"kurs dla dzieci (5-10 lat)","date":"28 marca","hour":"17:45–18:45","day_of_week":"Wtorek"},{"id":"5f12b635-86d3-4989-a1cf-4d755352bafc","title":"Rysunek","desc":"kurs dla początkujących (młodzież i dorośli)","date":"28 marca","hour":"19:00–20:30","day_of_week":"Wtorek"},{"id":"e8c051d0-dcdf-4576-b1da-5f4092876403","title":"Akwarele","desc":"kurs dla początkujących (młodzież i dorośli)","date":"29 marca","hour":"17:00–18:30","day_of_week":"Środa"},{"id":"da043c72-b113-4733-b2d7-5b1a741edd28","title":"Uważność","desc":"kurs świadomości ciała dla kobiet","date":"29 marca","hour":"19:00–21:00","day_of_week":"Środa"},{"id":"5b539097-8f25-4ae8-8adb-d032a8caa6a7","title":"Malarstwo","desc":"kurs dla początkujących (młodzież i dorośli)","date":"30 marca","hour":"09:00–10:30","day_of_week":"Czwartek"},{"id":"af1e221e-df3d-4e0f-8c6d-4183d0ee2c85","title":"Ceramika","desc":"kurs dla dzieci (4+)","date":"31 marca","hour":"19:00–20:30","day_of_week":"Piątek"}]
+[
+  {
+    "id": "084bc7cd-5c7b-4b33-8939-802380f7911e",
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)",
+    "date": "17 marca 2023",
+    "hour": "18:00–19:30",
+    "day_of_week": "Piątek"
+  },
+  {
+    "id": "ad1188cd-5643-4212-8da0-77da360851db",
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich",
+    "date": "18 marca 2023",
+    "hour": "12:30–14:00",
+    "day_of_week": "Sobota"
+  },
+  {
+    "id": "551d60ef-48bc-403e-ad9a-69f1d6fa478d",
+    "title": "Ebru (malowanie na wodzie)",
+    "desc": "warsztat dla wszystkich",
+    "date": "19 marca 2023",
+    "hour": "15:00–16:30",
+    "day_of_week": "Niedziela"
+  },
+  {
+    "id": "4da150e4-846e-4eb3-9766-196d82c3b054",
+    "title": "Kreatywne Warsztaty Plastyczne",
+    "desc": "kurs dla dzieci (5-10 lat)",
+    "date": "21 marca 2023",
+    "hour": "17:45–18:45",
+    "day_of_week": "Wtorek"
+  },
+  {
+    "id": "e9c29c8e-f45f-4797-be33-f0f833f1f054",
+    "title": "Rysunek",
+    "desc": "kurs dla początkujących (młodzież i dorośli)",
+    "date": "21 marca 2023",
+    "hour": "19:00–20:30",
+    "day_of_week": "Wtorek"
+  },
+  {
+    "id": "d25682f5-ea2f-45ea-ae4c-fa7a9fa609ab",
+    "title": "Akwarele",
+    "desc": "kurs dla początkujących (młodzież i dorośli)",
+    "date": "22 marca 2023",
+    "hour": "16:00–17:30",
+    "day_of_week": "Środa"
+  },
+  {
+    "id": "c2bf4c13-00f5-46cc-8456-1bb3556f60f2",
+    "title": "Malarstwo",
+    "desc": "kurs dla początkujących (młodzież i dorośli)",
+    "date": "23 marca 2023",
+    "hour": "09:00–10:30",
+    "day_of_week": "Czwartek"
+  },
+  {
+    "id": "e41eb287-2203-4501-af9f-dcb172ad9b74",
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)",
+    "date": "24 marca 2023",
+    "hour": "18:00–19:30",
+    "day_of_week": "Piątek"
+  },
+  {
+    "id": "948cfd83-a8e4-4fb9-93a6-ea31ed792ed1",
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich",
+    "date": "25 marca 2023",
+    "hour": "12:30–14:00",
+    "day_of_week": "Sobota"
+  },
+  {
+    "id": "23fc22fc-12e8-477d-8e2c-0f561745ebf1",
+    "title": "Wiosenne wianki",
+    "desc": "warsztat dla wszystkich",
+    "date": "26 marca 2023",
+    "hour": "15:00–17:00",
+    "day_of_week": "Niedziela"
+  },
+  {
+    "id": "a9aa3998-4da6-4d8d-aaf4-2b0865ade1cd",
+    "title": "Kreatywne Warsztaty Plastyczne",
+    "desc": "kurs dla dzieci (5-10 lat)",
+    "date": "28 marca 2023",
+    "hour": "17:45–18:45",
+    "day_of_week": "Wtorek"
+  },
+  {
+    "id": "6ac719e1-770e-45fe-b975-dd50e166f869",
+    "title": "Rysunek",
+    "desc": "kurs dla początkujących (młodzież i dorośli)",
+    "date": "28 marca 2023",
+    "hour": "19:00–20:30",
+    "day_of_week": "Wtorek"
+  },
+  {
+    "id": "eb67ea43-9ac3-49ec-be48-baafc9ae37d4",
+    "title": "Akwarele",
+    "desc": "kurs dla początkujących (młodzież i dorośli)",
+    "date": "29 marca 2023",
+    "hour": "17:00–18:30",
+    "day_of_week": "Środa"
+  },
+  {
+    "id": "07ded5cb-7ef3-4d8e-9ae7-84987a7ee54d",
+    "title": "Uważność",
+    "desc": "kurs świadomości ciała dla kobiet",
+    "date": "29 marca 2023",
+    "hour": "19:00–21:00",
+    "day_of_week": "Środa"
+  },
+  {
+    "id": "c822b26d-6182-4574-90f2-11ceef2e9a59",
+    "title": "Malarstwo",
+    "desc": "kurs dla początkujących (młodzież i dorośli)",
+    "date": "30 marca 2023",
+    "hour": "09:00–10:30",
+    "day_of_week": "Czwartek"
+  },
+  {
+    "id": "658d28de-ba1b-49f2-a403-db3d805fd8b5",
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)",
+    "date": "31 marca 2023",
+    "hour": "19:00–20:30",
+    "day_of_week": "Piątek"
+  }
+]
