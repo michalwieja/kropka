@@ -25,6 +25,9 @@
       display: flex;
       flex-direction: column;
       gap: 2vh;
+      @media (max-width: $break-900) {
+        padding-bottom: 5vh;
+      }
     }
   }
 
