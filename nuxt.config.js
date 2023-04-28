@@ -8,6 +8,15 @@ export default {
     htmlAttrs: {
       lang: 'pl'
     },
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-06R5K8E3DT',
+        async: true
+      },
+      {
+        src: 'https://kropka.art/js/ga.js'
+      }
+    ],
     meta: [
       { charset: 'utf-8' },
       {
