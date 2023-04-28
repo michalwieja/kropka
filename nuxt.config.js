@@ -14,7 +14,7 @@ export default {
         async: true
       },
       {
-        src: 'https://kropka.art/js/ga.js'
+        src: 'https://kropka.art/ga.js'
       }
     ],
     meta: [
