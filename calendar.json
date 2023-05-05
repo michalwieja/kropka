@@ -1,1 +1,344 @@
-[{"title":"Kreatywne Warsztaty Plastyczne","desc":"kurs dla dzieci (5-10 lat)","day":"25","month":"kwietnia","hour":"17:45–18:45","day_of_week":"Wtorek","date":"2023-04-25"},{"title":"Rysunek","desc":"kurs dla początkujących (młodzież i dorośli)","day":"25","month":"kwietnia","hour":"19:00–20:30","day_of_week":"Wtorek","date":"2023-04-25"},{"title":"Akwarele","desc":"kurs dla początkujących (młodzież i dorośli)","day":"26","month":"kwietnia","hour":"17:00–18:30","day_of_week":"Środa","date":"2023-04-26"},{"title":"Uważność","desc":"kurs świadomości ciała dla kobiet","day":"26","month":"kwietnia","hour":"19:00–21:00","day_of_week":"Środa","date":"2023-04-26"},{"title":"Malarstwo","desc":"kurs dla początkujących (młodzież i dorośli)","day":"27","month":"kwietnia","hour":"09:00–10:30","day_of_week":"Czwartek","date":"2023-04-27"},{"title":"Ceramika","desc":"kurs dla dzieci (4+)","day":"28","month":"kwietnia","hour":"17:00–18:30","day_of_week":"Piątek","date":"2023-04-28"},{"title":"Ukulele","desc":"kurs dla dzieci\n","day":"29","month":"kwietnia","hour":"10:30–11:30\n","day_of_week":"Sobota","date":"2023-04-29"},{"title":"Ceramika","desc":"warsztat dla wszystkich\n","day":"29","month":"kwietnia","hour":"12:30–14:00\n","day_of_week":"Sobota","date":"2023-04-29"},{"title":"Punch needle","desc":"warsztat dla dzieci\n","day":"29","month":"kwietnia","hour":"14:00–16:00\n","day_of_week":"Sobota","date":"2023-04-29"},{"title":"Szydełkowanie","desc":"warsztat dla dzieci 8+\n","day":"30","month":"kwietnia","hour":"12:00–14:00\n","day_of_week":"Niedziela","date":"2023-04-30"},{"title":"Pracownia biżuterii","desc":"warsztat dla dzieci\n","day":"30","month":"kwietnia","hour":"16:00–18:00\n","day_of_week":"Niedziela","date":"2023-04-30"},{"title":"Kreatywne Warsztaty Plastyczne","desc":"kurs dla dzieci (5-10 lat)\n","day":"2","month":"maja","hour":"17:45–18:45\n","day_of_week":"Wtorek","date":"2023-05-2"},{"title":"Ceramika","desc":"warsztat dla wszystkich\n","day":"2","month":"maja","hour":"18:00–19:30\n","day_of_week":"Wtorek","date":"2023-05-2"},{"title":"Rysunek","desc":"kurs dla początkujących (młodzież i dorośli)\n","day":"2","month":"maja","hour":"19:00–20:30\n","day_of_week":"Wtorek","date":"2023-05-2"},{"title":"Akwarele","desc":"kurs dla początkujących (młodzież i dorośli)\n","day":"3","month":"maja","hour":"17:00–18:30\n","day_of_week":"Środa","date":"2023-05-3"},{"title":"Plener malarski","desc":"kurs dla wszystkich\n","day":"3","month":"maja","hour":"17:00–18:30\n","day_of_week":"Środa","date":"2023-05-3"},{"title":"Malarstwo","desc":"kurs dla początkujących (młodzież i dorośli)\n","day":"4","month":"maja","hour":"09:00–10:30\n","day_of_week":"Czwartek","date":"2023-05-4"},{"title":"Ceramika","desc":"kurs dla dzieci (4+)\n","day":"5","month":"maja","hour":"17:00–18:30\n","day_of_week":"Piątek","date":"2023-05-5"},{"title":"Ukulele","desc":"kurs dla dzieci\n","day":"6","month":"maja","hour":"10:30–11:30\n","day_of_week":"Sobota","date":"2023-05-6"},{"title":"Ceramika","desc":"warsztat dla wszystkich\n","day":"6","month":"maja","hour":"13:30–15:00\n","day_of_week":"Sobota","date":"2023-05-6"},{"title":"Ceramika","desc":"warsztat dla wszystkich\n","day":"7","month":"maja","hour":"10:00–11:30\n","day_of_week":"Niedziela","date":"2023-05-7"}]
+[
+  {
+    "title": "Malarstwo",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "4",
+    "month": "maja",
+    "hour": "09:00–10:30\n",
+    "day_of_week": "Czwartek",
+    "date": "2023-05-4"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)\n",
+    "day": "5",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Piątek",
+    "date": "2023-05-5"
+  },
+  {
+    "title": "Ukulele",
+    "desc": "kurs dla dzieci\n",
+    "day": "6",
+    "month": "maja",
+    "hour": "10:30–11:30\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-6"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "6",
+    "month": "maja",
+    "hour": "13:30–15:00\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-6"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "7",
+    "month": "maja",
+    "hour": "10:00–11:30\n",
+    "day_of_week": "Niedziela",
+    "date": "2023-05-7"
+  },
+  {
+    "title": "Kreatywne Warsztaty Plastyczne",
+    "desc": "kurs dla dzieci (5-10 lat)\n",
+    "day": "9",
+    "month": "maja",
+    "hour": "17:45–18:45\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-9"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "9",
+    "month": "maja",
+    "hour": "18:00–19:30\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-9"
+  },
+  {
+    "title": "Rysunek",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "9",
+    "month": "maja",
+    "hour": "19:00–20:30\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-9"
+  },
+  {
+    "title": "Akwarele",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "10",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Środa",
+    "date": "2023-05-10"
+  },
+  {
+    "title": "Plener malarski",
+    "desc": "kurs dla wszystkich\n",
+    "day": "10",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Środa",
+    "date": "2023-05-10"
+  },
+  {
+    "title": "Malarstwo",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "11",
+    "month": "maja",
+    "hour": "09:00–10:30\n",
+    "day_of_week": "Czwartek",
+    "date": "2023-05-11"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)\n",
+    "day": "12",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Piątek",
+    "date": "2023-05-12"
+  },
+  {
+    "title": "Ukulele",
+    "desc": "kurs dla dzieci\n",
+    "day": "13",
+    "month": "maja",
+    "hour": "10:30–11:30\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-13"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "13",
+    "month": "maja",
+    "hour": "13:30–15:00\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-13"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "14",
+    "month": "maja",
+    "hour": "10:00–11:30\n",
+    "day_of_week": "Niedziela",
+    "date": "2023-05-14"
+  },
+  {
+    "title": "Punch needle",
+    "desc": "warsztat dla dzieci\n",
+    "day": "14",
+    "month": "maja",
+    "hour": "16:00–18:00\n",
+    "day_of_week": "Niedziela",
+    "date": "2023-05-14"
+  },
+  {
+    "title": "Kreatywne Warsztaty Plastyczne",
+    "desc": "kurs dla dzieci (5-10 lat)\n",
+    "day": "16",
+    "month": "maja",
+    "hour": "17:45–18:45\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-16"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "16",
+    "month": "maja",
+    "hour": "18:00–19:30\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-16"
+  },
+  {
+    "title": "Rysunek",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "16",
+    "month": "maja",
+    "hour": "19:00–20:30\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-16"
+  },
+  {
+    "title": "Akwarele",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "17",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Środa",
+    "date": "2023-05-17"
+  },
+  {
+    "title": "Plener malarski",
+    "desc": "kurs dla wszystkich\n",
+    "day": "17",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Środa",
+    "date": "2023-05-17"
+  },
+  {
+    "title": "Malarstwo",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "18",
+    "month": "maja",
+    "hour": "09:00–10:30\n",
+    "day_of_week": "Czwartek",
+    "date": "2023-05-18"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)\n",
+    "day": "19",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Piątek",
+    "date": "2023-05-19"
+  },
+  {
+    "title": "Ukulele",
+    "desc": "kurs dla dzieci\n",
+    "day": "20",
+    "month": "maja",
+    "hour": "10:30–11:30\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-20"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "20",
+    "month": "maja",
+    "hour": "13:30–15:00\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-20"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "21",
+    "month": "maja",
+    "hour": "10:00–11:30\n",
+    "day_of_week": "Niedziela",
+    "date": "2023-05-21"
+  },
+  {
+    "title": "Kreatywne Warsztaty Plastyczne",
+    "desc": "kurs dla dzieci (5-10 lat)\n",
+    "day": "23",
+    "month": "maja",
+    "hour": "17:45–18:45\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-23"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "23",
+    "month": "maja",
+    "hour": "18:00–19:30\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-23"
+  },
+  {
+    "title": "Rysunek",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "23",
+    "month": "maja",
+    "hour": "19:00–20:30\n",
+    "day_of_week": "Wtorek",
+    "date": "2023-05-23"
+  },
+  {
+    "title": "Akwarele",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "24",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Środa",
+    "date": "2023-05-24"
+  },
+  {
+    "title": "Plener malarski",
+    "desc": "kurs dla wszystkich\n",
+    "day": "24",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Środa",
+    "date": "2023-05-24"
+  },
+  {
+    "title": "Malarstwo",
+    "desc": "kurs dla początkujących (młodzież i dorośli)\n",
+    "day": "25",
+    "month": "maja",
+    "hour": "09:00–10:30\n",
+    "day_of_week": "Czwartek",
+    "date": "2023-05-25"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "kurs dla dzieci (4+)\n",
+    "day": "26",
+    "month": "maja",
+    "hour": "17:00–18:30\n",
+    "day_of_week": "Piątek",
+    "date": "2023-05-26"
+  },
+  {
+    "title": "Ukulele",
+    "desc": "kurs dla dzieci\n",
+    "day": "27",
+    "month": "maja",
+    "hour": "10:30–11:30\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-27"
+  },
+  {
+    "title": "Punch needle (poszewka na poduszkę)",
+    "desc": "warsztat dla dorosłych\n",
+    "day": "27",
+    "month": "maja",
+    "hour": "11:00–15:00\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-27"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "27",
+    "month": "maja",
+    "hour": "13:30–15:00\n",
+    "day_of_week": "Sobota",
+    "date": "2023-05-27"
+  },
+  {
+    "title": "Ceramika",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "28",
+    "month": "maja",
+    "hour": "10:00–11:30\n",
+    "day_of_week": "Niedziela",
+    "date": "2023-05-28"
+  },
+  {
+    "title": "Makrama",
+    "desc": "warsztat dla wszystkich\n",
+    "day": "28",
+    "month": "maja",
+    "hour": "12:00–14:00\n",
+    "day_of_week": "Niedziela",
+    "date": "2023-05-28"
+  }
+]

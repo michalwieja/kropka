@@ -12,17 +12,17 @@
     </div>
     <div v-for="(date, key) in groupByDate(filteredItems)" :key="date.key">
       <div class="schedule__group-label">
-        {{ $dayjs(key).format('DD MMMM YYYY') }}, {{ date[0].day_of_week }}
+        {{ $dayjs(key).format('DD MMMM YYYY') }}, {{ date[0].dayOfWeek }}
       </div>
       <div v-for="event in date" :key="event.id" class="schedule__event-row">
         <div style="flex: 1">
           <span class="schedule__event-label">
-            {{ event.title }}
+            {{ event.summary }}
           </span>
           <span>{{ event.desc }}</span>
         </div>
         <div>
-          {{ event.hour }}
+          {{ `${event.startHour} - ${event.endHour}` }}
         </div>
       </div>
     </div>
@@ -35,6 +35,7 @@ import { scheduleConfig, scheduleGroupLabel, selectLabels } from '../config/sche
 import 'vue-select/dist/vue-select.css'
 import SectionTitle from '../components/SectionTitle.vue'
 import calendar from '../calendar.json'
+import parsed from '../parsed.json'
 
 export default {
   name: 'Grafik',
@@ -45,6 +46,7 @@ export default {
   data () {
     return {
       calendar,
+      parsed,
       scheduleConfig,
       scheduleGroupLabel,
       selectLabels,
@@ -55,9 +57,9 @@ export default {
   computed: {
     filteredItems () {
       if (this.filter) {
-        return this.calendar.filter(el => el.title === this.filter)
+        return this.parsed.filter(el => el.summary.includes(this.filter))
       }
-      return this.calendar
+      return this.parsed
     }
   },
   methods: {

@@ -1,0 +1,359 @@
+[
+  {
+    "date": "2023-05-03",
+    "dayOfWeek": "środa",
+    "startHour": "17:00",
+    "endHour": "18:30",
+    "summary": "Plener malarski - kurs dla wszystkich"
+  },
+  {
+    "date": "2023-05-03",
+    "dayOfWeek": "środa",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Akwarele - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-04",
+    "dayOfWeek": "czwartek",
+    "startHour": "09:00",
+    "endHour": "10:30",
+    "summary": "Malarstwo - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-05",
+    "dayOfWeek": "piątek",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Ceramika - kurs dla dzieci (4+)"
+  },
+  {
+    "date": "2023-05-06",
+    "dayOfWeek": "sobota",
+    "startHour": "13:30",
+    "endHour": "15:00",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-06",
+    "dayOfWeek": "sobota",
+    "startHour": "10:30",
+    "endHour": "11:30",
+    "summary": "Ukulele - kurs dla dzieci"
+  },
+  {
+    "date": "2023-05-06",
+    "dayOfWeek": "sobota",
+    "startHour": "17:00",
+    "endHour": "19:00",
+    "summary": "wynajem sali - ceramika"
+  },
+  {
+    "date": "2023-05-07",
+    "dayOfWeek": "niedziela",
+    "startHour": "10:00",
+    "endHour": "11:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-07T14:30:00.000Z",
+    "dayOfWeek": "niedziela",
+    "startHour": "16:30",
+    "endHour": "20:00",
+    "summary": "rezerwacja kawiarnia 15 osób"
+  },
+  {
+    "date": "2023-05-09",
+    "dayOfWeek": "wtorek",
+    "startHour": "18:00",
+    "endHour": "19:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-09",
+    "dayOfWeek": "wtorek",
+    "startHour": "17:45",
+    "endHour": "18:45",
+    "summary": "Kreatywne Warsztaty Plastyczne - kurs dla dzieci (5-10 lat)"
+  },
+  {
+    "date": "2023-05-09",
+    "dayOfWeek": "wtorek",
+    "startHour": "19:00",
+    "endHour": "20:30",
+    "summary": "Rysunek - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-10",
+    "dayOfWeek": "środa",
+    "startHour": "17:00",
+    "endHour": "18:30",
+    "summary": "Plener malarski - kurs dla wszystkich"
+  },
+  {
+    "date": "2023-05-10",
+    "dayOfWeek": "środa",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Akwarele - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-11",
+    "dayOfWeek": "czwartek",
+    "startHour": "09:00",
+    "endHour": "10:30",
+    "summary": "Malarstwo - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-12",
+    "dayOfWeek": "piątek",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Ceramika - kurs dla dzieci (4+)"
+  },
+  {
+    "date": "2023-05-13",
+    "dayOfWeek": "sobota",
+    "startHour": "13:30",
+    "endHour": "15:00",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-13",
+    "dayOfWeek": "sobota",
+    "startHour": "10:30",
+    "endHour": "11:30",
+    "summary": "Ukulele - kurs dla dzieci"
+  },
+  {
+    "date": "2023-05-14",
+    "dayOfWeek": "niedziela",
+    "startHour": "10:00",
+    "endHour": "11:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-14T14:00:00.000Z",
+    "dayOfWeek": "niedziela",
+    "startHour": "16:00",
+    "endHour": "18:00",
+    "summary": "Punch needle - warsztat dla dzieci"
+  },
+  {
+    "date": "2023-05-16",
+    "dayOfWeek": "wtorek",
+    "startHour": "18:00",
+    "endHour": "19:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-16",
+    "dayOfWeek": "wtorek",
+    "startHour": "17:45",
+    "endHour": "18:45",
+    "summary": "Kreatywne Warsztaty Plastyczne - kurs dla dzieci (5-10 lat)"
+  },
+  {
+    "date": "2023-05-16",
+    "dayOfWeek": "wtorek",
+    "startHour": "19:00",
+    "endHour": "20:30",
+    "summary": "Rysunek - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-17",
+    "dayOfWeek": "środa",
+    "startHour": "17:00",
+    "endHour": "18:30",
+    "summary": "Plener malarski - kurs dla wszystkich"
+  },
+  {
+    "date": "2023-05-17",
+    "dayOfWeek": "środa",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Akwarele - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-18",
+    "dayOfWeek": "czwartek",
+    "startHour": "09:00",
+    "endHour": "10:30",
+    "summary": "Malarstwo - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-19",
+    "dayOfWeek": "piątek",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Ceramika - kurs dla dzieci (4+)"
+  },
+  {
+    "date": "2023-05-20",
+    "dayOfWeek": "sobota",
+    "startHour": "13:30",
+    "endHour": "15:00",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-20",
+    "dayOfWeek": "sobota",
+    "startHour": "10:30",
+    "endHour": "11:30",
+    "summary": "Ukulele - kurs dla dzieci"
+  },
+  {
+    "date": "2023-05-20",
+    "dayOfWeek": "sobota",
+    "startHour": "17:00",
+    "endHour": "19:00",
+    "summary": "wynajem sali - ceramika"
+  },
+  {
+    "date": "2023-05-21",
+    "dayOfWeek": "niedziela",
+    "startHour": "10:00",
+    "endHour": "11:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-21T10:00:00.000Z",
+    "dayOfWeek": "niedziela",
+    "startHour": "12:00",
+    "endHour": "18:00",
+    "summary": "rezerwacja kawiarni komunia"
+  },
+  {
+    "date": "2023-05-23",
+    "dayOfWeek": "wtorek",
+    "startHour": "18:00",
+    "endHour": "19:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-23",
+    "dayOfWeek": "wtorek",
+    "startHour": "17:45",
+    "endHour": "18:45",
+    "summary": "Kreatywne Warsztaty Plastyczne - kurs dla dzieci (5-10 lat)"
+  },
+  {
+    "date": "2023-05-23",
+    "dayOfWeek": "wtorek",
+    "startHour": "19:00",
+    "endHour": "20:30",
+    "summary": "Rysunek - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-24",
+    "dayOfWeek": "środa",
+    "startHour": "17:00",
+    "endHour": "18:30",
+    "summary": "Plener malarski - kurs dla wszystkich"
+  },
+  {
+    "date": "2023-05-24",
+    "dayOfWeek": "środa",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Akwarele - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-25",
+    "dayOfWeek": "czwartek",
+    "startHour": "09:00",
+    "endHour": "10:30",
+    "summary": "Malarstwo - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-26",
+    "dayOfWeek": "piątek",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Ceramika - kurs dla dzieci (4+)"
+  },
+  {
+    "date": "2023-05-27",
+    "dayOfWeek": "sobota",
+    "startHour": "13:30",
+    "endHour": "15:00",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-27",
+    "dayOfWeek": "sobota",
+    "startHour": "10:30",
+    "endHour": "11:30",
+    "summary": "Ukulele - kurs dla dzieci"
+  },
+  {
+    "date": "2023-05-27T09:00:00.000Z",
+    "dayOfWeek": "sobota",
+    "startHour": "11:00",
+    "endHour": "15:00",
+    "summary": "Punch needle (poszewka na poduszkę) - warsztat dla dorosłych"
+  },
+  {
+    "date": "2023-05-28",
+    "dayOfWeek": "niedziela",
+    "startHour": "10:00",
+    "endHour": "11:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-28T10:00:00.000Z",
+    "dayOfWeek": "niedziela",
+    "startHour": "12:00",
+    "endHour": "14:00",
+    "summary": "Makrama - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-30",
+    "dayOfWeek": "wtorek",
+    "startHour": "18:00",
+    "endHour": "19:30",
+    "summary": "Ceramika - warsztat dla wszystkich"
+  },
+  {
+    "date": "2023-05-30",
+    "dayOfWeek": "wtorek",
+    "startHour": "17:45",
+    "endHour": "18:45",
+    "summary": "Kreatywne Warsztaty Plastyczne - kurs dla dzieci (5-10 lat)"
+  },
+  {
+    "date": "2023-05-30",
+    "dayOfWeek": "wtorek",
+    "startHour": "19:00",
+    "endHour": "20:30",
+    "summary": "Rysunek - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-05-31",
+    "dayOfWeek": "środa",
+    "startHour": "17:00",
+    "endHour": "18:30",
+    "summary": "Plener malarski - kurs dla wszystkich"
+  },
+  {
+    "date": "2023-05-31",
+    "dayOfWeek": "środa",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Akwarele - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-06-01",
+    "dayOfWeek": "czwartek",
+    "startHour": "09:00",
+    "endHour": "10:30",
+    "summary": "Malarstwo - kurs dla początkujących (młodzież i dorośli)"
+  },
+  {
+    "date": "2023-06-02",
+    "dayOfWeek": "piątek",
+    "startHour": "16:00",
+    "endHour": "17:30",
+    "summary": "Ceramika - kurs dla dzieci (4+)"
+  }
+]
