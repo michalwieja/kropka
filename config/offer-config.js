@@ -20,7 +20,6 @@ export const youngestOfferConfig = [
     photo: '4.jpg',
     desc: 'Kreatywne soboty to nie zwykłe zajęcia plastyczne/muzyczne. To ekspresja, ruch, swoboda. Będzie zespołowo, projektowo, będzie się działo. Każde zajęcia to nowa aktywność. Tym razem nie będziemy Wam zdradzać na naszym FaceBooku czy Instagramie tematu zajęć. Chcemy Was zaskakiwać! Zapraszamy dzieci z\u00A0opiekunami.'
   }
-
 ]
 
 export const youngerOfferConfig = [
@@ -107,5 +106,78 @@ export const otherOfferConfig = [
     label: 'Oferta dla szkól',
     photo: 'szkola.jpg',
     desc: 'Zapytaj o ofertę'
+  }
+]
+
+export const activities = [
+  {
+    label: 'Ceramika (lepienie + szkliwienie)',
+    photo: 'szkola.jpg',
+    price: '75 zł za dwa spotkania',
+    priceNote: 'Dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: 'lepienie 1 - 1,5 godz., szkliwienie ok. 1 godz.'
+  },
+  {
+    label: 'Linoryt (nadruk na torbie bawełnianej)',
+    photo: 'szkola.jpg',
+    price: '45 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie (w cenie torba bawełniana)',
+    duration: '1 - 1,5 godz.'
+  },
+  {
+    label: 'Malarstwo akwarelowe',
+    photo: 'szkola.jpg',
+    price: '35 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1 - 1,5 godz.'
+  },
+  {
+    label: 'Ebru czyli malowanie na wodzie',
+    photo: 'szkola.jpg',
+    price: '45 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1 - 1,5 godz.'
+  },
+  {
+    label: 'Cyjanotypia czyli jedna z najstarszych technik fotograficznych',
+    photo: 'szkola.jpg',
+    price: '45 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1 - 1,5 godz.'
+  },
+  {
+    label: 'Mydlarnia czyli jak się robi mydełka',
+    photo: 'szkola.jpg',
+    price: '45 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1 - 1,5 godz.'
+  },
+  {
+    label: 'LandArt czyli Sztuka Ziemi (zajęcia odbywają się na zewnątrz - najczęściej w lesie)',
+    photo: 'szkola.jpg',
+    price: '35 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1,5 - 2 godz.'
+  },
+  {
+    label: 'Plener malarski lub rysunkowy (zajęcia odbywają się na zewnątrz - okolice pracowni lub szkoły)',
+    photo: 'szkola.jpg',
+    price: '35 zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1,5 - 2 godz.'
+  },
+  {
+    label: 'Płaskorzeźba gipsowa (tworzenie + malowanie)',
+    photo: 'szkola.jpg',
+    price: '55 zł za dwa spotkania',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1 - 1,5 godz. + 1 godz.'
+  },
+  {
+    label: 'Filcowanie na mokro',
+    photo: 'szkola.jpg',
+    price: '40zł',
+    priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
+    duration: '1 - 1,5 godz. + 1 godz.'
   }
 ]
