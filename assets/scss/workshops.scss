@@ -1,0 +1,33 @@
+.workshops {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 95vh;
+  line-height: 150%;
+
+  .summary {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    flex: 1;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  strong {
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-position: inside;
+  }
+}

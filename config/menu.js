@@ -15,13 +15,18 @@ export default [
     path: '/grafik',
     name: 'Grafik'
   },
-  // {
-  //   path: '/cennik',
-  //   name: 'Cennik'
-  // },
+
   {
     path: '/galeria',
     name: 'Galeria'
+  },
+  {
+    path: '/kolonie',
+    name: 'Półkolonie'
+  },
+  {
+    path: '/szkoly',
+    name: 'Oferta dla szkół'
   },
   {
     path: '/kontakt',
