@@ -1,6 +1,10 @@
 <template>
   <div class="site container schedule">
-    <div v-if="loading" class="lds-dual-ring" />
+    <div v-if="$fetchState.pending" class="lds-dual-ring" />
+    <p v-else-if="$fetchState.error">
+      Coś poszło nie tak - spróbuj później
+    </p>
+
     <template v-else>
       <SectionTitle subtitle="Kiedy do nas zajrzysz?" title="Grafik" />
       <div class="select-wrapper">
@@ -34,7 +38,6 @@
 <script>
 
 import vSelect from 'vue-select'
-import axios from 'axios'
 import dayjs from 'dayjs'
 import { scheduleConfig, scheduleGroupLabel, selectLabels } from '../config/schedule.js'
 import 'vue-select/dist/vue-select.css'
@@ -57,6 +60,10 @@ export default {
       labels: ['Akwarele', 'Ceramika', 'Kreatywne Warsztaty Plastyczne', 'Malarstwo', 'Rysunek', 'Uważność']
     }
   },
+  async fetch () {
+    const { GoogleSheetData } = await fetch('https://script.google.com/macros/s/AKfycbzSPRzBIrOpA9K4w0YurNqPEjloPZKNpUdJY1W5yappOBEMU0Z5WNs-FZC203BUudgm/exec').then(res => res.json())
+    this.calendar = GoogleSheetData
+  },
   computed: {
     filteredItems () {
       const currentItems = this.calendar?.filter(el => dayjs(el.date).isAfter(dayjs().subtract(1, 'days')))
@@ -67,20 +74,10 @@ export default {
     }
   },
   created () {
-    this.getCalendar()
+    this.$fetch()
   },
   methods: {
     dayjs,
-    async getCalendar () {
-      this.loading = true
-      try {
-        const { data } = await axios.get('https://script.google.com/macros/s/AKfycbzSPRzBIrOpA9K4w0YurNqPEjloPZKNpUdJY1W5yappOBEMU0Z5WNs-FZC203BUudgm/exec')
-        this.calendar = data.GoogleSheetData
-      } catch (error) {
-        alert('Coś poszło nie tak. Spróbuj później')
-      }
-      this.loading = false
-    },
     groupByDate (events) {
       return events?.reduce((result, event) => {
         const date = event.date

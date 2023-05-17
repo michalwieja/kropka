@@ -9,7 +9,7 @@
         <div
           v-for="(card,i) in activities"
           :key="card.label"
-          :data-aos-delay="`${i*100}`"
+          :data-aos-delay="`${i*10}`"
           class="offer__card"
           data-aos="fade-left"
           @click="()=>handleClick(card)"
