@@ -105,28 +105,29 @@ export const otherOfferConfig = [
   {
     label: 'Oferta dla szkól',
     photo: 'szkola.jpg',
-    desc: 'Zapytaj o ofertę'
+    desc: 'Zapytaj o ofertę',
+    link: '/szkoly'
   }
 ]
 
 export const activities = [
   {
     label: 'Ceramika (lepienie + szkliwienie)',
-    photo: 'szkola.jpg',
+    photo: 'ceramika.jpg',
     price: '75 zł za dwa spotkania',
     priceNote: 'Dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
     duration: 'lepienie 1 - 1,5 godz., szkliwienie ok. 1 godz.'
   },
   {
     label: 'Linoryt (nadruk na torbie bawełnianej)',
-    photo: 'szkola.jpg',
+    photo: 'linoryt.jpeg',
     price: '45 zł',
     priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie (w cenie torba bawełniana)',
     duration: '1 - 1,5 godz.'
   },
   {
     label: 'Malarstwo akwarelowe',
-    photo: 'szkola.jpg',
+    photo: 'akwarele.jpg',
     price: '35 zł',
     priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
     duration: '1 - 1,5 godz.'
@@ -147,7 +148,7 @@ export const activities = [
   },
   {
     label: 'Mydlarnia czyli jak się robi mydełka',
-    photo: 'szkola.jpg',
+    photo: 'mydelka.jpeg',
     price: '45 zł',
     priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
     duration: '1 - 1,5 godz.'
@@ -161,7 +162,7 @@ export const activities = [
   },
   {
     label: 'Plener malarski lub rysunkowy (zajęcia odbywają się na zewnątrz - okolice pracowni lub szkoły)',
-    photo: 'szkola.jpg',
+    photo: 'plener.jpeg',
     price: '35 zł',
     priceNote: 'Cena dla grup powyżej 16 osób, dla mniej liczebnych grup cena ustalana indywidualnie',
     duration: '1,5 - 2 godz.'

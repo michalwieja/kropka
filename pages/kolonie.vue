@@ -1,13 +1,25 @@
 <template>
   <div class="site container workshops">
     <SectionTitle subtitle="Letnie Warsztaty Twórcze dla Dzieci" title="Półkolonie" />
-    <p class="summary">
-      Zapraszamy dzieci w wieku od 6 do 12 lat na pełne kreatywnych przygód letnie warsztaty, które
-      odbędą się w terminach od 26 czerwca do 1 września 2023 roku. Nasze warsztaty plastyczne i ruchowe
-      oferują bogaty program, który rozwija wyobraźnię, umiejętności artystyczne i sprawność fizyczną
-      dzieci. Przez cały dzień zapewniamy opiekę, posiłki oraz wiele inspirujących zajęć w naszej przestronnej
-      pracowni i ogrodzie.
-    </p>
+    <ContentWithImage filename="./offer/kolonie-1.jpg">
+      <p class="summary">
+        Zapraszamy dzieci w wieku od 6 do 12 lat na pełne kreatywnych przygód letnie warsztaty, które
+        odbędą się w terminach od 26 czerwca do 1 września 2023 roku. Nasze warsztaty plastyczne i ruchowe
+        oferują bogaty program, który rozwija wyobraźnię, umiejętności artystyczne i sprawność fizyczną
+        dzieci. Przez cały dzień zapewniamy opiekę, posiłki oraz wiele inspirujących zajęć w naszej przestronnej
+        pracowni i ogrodzie.
+      </p>
+    </ContentWithImage>
+    <ContentWithImage filename="./offer/kolonie-2.jpg" reverse>
+      <h2>Informacje o Warsztatach</h2>
+      <ul>
+        <li>Opieka w godzinach od 7:00-17:00</li>
+        <li>Warsztaty prowadzone przez pedagogów i absolwentów ASP</li>
+        <li>Grupy do 12 osób</li>
+        <li>Dzieci mają do dyspozycji 150m<sup>2</sup> pracowni plus ogród</li>
+        <li>W cenie: opieka, warsztaty, wyżywienie (drugie śniadanie, obiad, podwieczorek, przekąski, woda/herbata bez ograniczeń)</li>
+      </ul>
+    </ContentWithImage>
     <div class="row">
       <div class="column">
         <h2>Warsztaty Plastyczne</h2>
@@ -38,14 +50,6 @@
       <strong>12:00-15:30:</strong> Warsztat II + przerwa obiadowa<br>
       <strong>15:30-17:00:</strong> Odbieranie dzieci - planszówki, praktyka uważności, muzykowanie, zabawy grupowe
     </p>
-    <h2>Informacje o Warsztatach</h2>
-    <ul>
-      <li>Opieka w godzinach od 7:00-17:00</li>
-      <li>Warsztaty prowadzone przez pedagogów i absolwentów ASP</li>
-      <li>Grupy do 12 osób</li>
-      <li>Dzieci mają do dyspozycji 150m<sup>2</sup> pracowni plus ogród</li>
-      <li>W cenie: opieka, warsztaty, wyżywienie (drugie śniadanie, obiad, podwieczorek, przekąski, woda/herbata bez ograniczeń)</li>
-    </ul>
   </div>
 </template>
 

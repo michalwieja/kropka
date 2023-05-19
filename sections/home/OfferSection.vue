@@ -104,8 +104,9 @@
           :data-aos-delay="`${i*100}`"
           class="offer__card"
           data-aos="fade-left"
-          @click="()=>handleClick(card)"
+          @click="()=>handleOther(card)"
         >
+          {{ card.link }}
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
           <span class="label">
             {{ card.label }}
@@ -160,6 +161,11 @@ export default {
   methods: {
     handleClick (el) {
       if (!el.disabled) { this.activeCard = el }
+    },
+    handleOther (card) {
+      if (card.link) {
+        this.$router.push(card.link) // Replace '/new-route' with the desired route
+      }
     }
   }
 }
