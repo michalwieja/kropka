@@ -27,6 +27,9 @@ export default [
   {
     path: '/szkoly',
     name: 'Oferta dla szkół'
+  }, {
+    path: '/edukacja',
+    name: 'Edukacja domowa'
   },
   {
     path: '/kontakt',

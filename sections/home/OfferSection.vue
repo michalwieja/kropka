@@ -106,7 +106,6 @@
           data-aos="fade-left"
           @click="()=>handleOther(card)"
         >
-          {{ card.link }}
           <img :alt="card.label" :src="`offer/${card.photo}`" class="top-img">
           <span class="label">
             {{ card.label }}
