@@ -1,8 +1,8 @@
 export default [
-  {
-    path: '/',
-    name: 'Start'
-  },
+  // {
+  //   path: '/',
+  //   name: 'Start'
+  // },
   {
     path: '/#about',
     name: 'O nas'
@@ -10,6 +10,10 @@ export default [
   {
     path: '/#offer',
     name: 'Oferta'
+  },
+  {
+    path: '/urodziny',
+    name: 'Urodziny'
   },
   {
     path: '/grafik',
@@ -27,7 +31,8 @@ export default [
   {
     path: '/szkoly',
     name: 'Oferta dla szkół'
-  }, {
+  },
+  {
     path: '/edukacja',
     name: 'Edukacja domowa'
   },

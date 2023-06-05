@@ -1,0 +1,13 @@
+.birthday {
+    line-height: 150%;
+
+    .content {
+        padding: 40px 0;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

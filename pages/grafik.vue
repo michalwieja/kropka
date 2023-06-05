@@ -1,38 +1,40 @@
 <template>
   <div class="site container schedule">
-    <div v-if="$fetchState.pending" class="lds-dual-ring" />
-    <p v-else-if="$fetchState.error">
-      Coś poszło nie tak - spróbuj później
-    </p>
+    <no-ssr>
+      <div v-if="$fetchState.pending" class="lds-dual-ring" />
+      <p v-else-if="$fetchState.error">
+        Coś poszło nie tak - spróbuj później
+      </p>
 
-    <template v-else>
-      <SectionTitle subtitle="Kiedy do nas zajrzysz?" title="Grafik" />
-      <div class="select-wrapper">
-        <v-select
-          v-model="filter"
-          :options="labels"
-          :searchable="false"
-          class="style-chooser"
-          placeholder="Wybierz grupę"
-        />
-      </div>
-      <div v-for="(date, key) in groupByDate(filteredItems)" :key="date.key">
-        <div class="schedule__group-label">
-          {{ $dayjs(key).format('DD MMMM YYYY') }}, {{ dayjs(date[0].date).format('dddd') }}
+      <template v-else>
+        <SectionTitle subtitle="Kiedy do nas zajrzysz?" title="Grafik" />
+        <div class="select-wrapper">
+          <v-select
+            v-model="filter"
+            :options="labels"
+            :searchable="false"
+            class="style-chooser"
+            placeholder="Wybierz grupę"
+          />
         </div>
-        <div v-for="event in date" :key="event.id" class="schedule__event-row">
-          <div style="flex: 1">
-            <span class="schedule__event-label">
-              {{ event.title }}
-            </span>
-            <span>{{ event.desc }}</span>
+        <div v-for="(date, key) in groupByDate(filteredItems)" :key="date.key">
+          <div class="schedule__group-label">
+            {{ $dayjs(key).format('DD MMMM YYYY') }}, {{ dayjs(date[0].date).format('dddd') }}
           </div>
-          <div>
-            {{ `${dayjs(event.start).format('HH:mm')} - ${dayjs(event.end).format('HH:mm')}` }}
+          <div v-for="event in date" :key="event.id" class="schedule__event-row">
+            <div style="flex: 1">
+              <span class="schedule__event-label">
+                {{ event.title }}
+              </span>
+              <span>{{ event.desc }}</span>
+            </div>
+            <div>
+              {{ `${dayjs(event.start).format('HH:mm')} - ${dayjs(event.end).format('HH:mm')}` }}
+            </div>
           </div>
         </div>
-      </div>
-    </template>
+      </template>
+    </no-ssr>
   </div>
 </template>
 <script>
@@ -56,7 +58,6 @@ export default {
       scheduleGroupLabel,
       selectLabels,
       filter: '',
-      loading: true,
       labels: ['Akwarele', 'Ceramika', 'Kreatywne Warsztaty Plastyczne', 'Malarstwo', 'Rysunek', 'Uważność']
     }
   },
