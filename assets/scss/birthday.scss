@@ -1,8 +1,32 @@
 .birthday {
-    line-height: 150%;
+
+    h2 {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        font-weight: normal;
+
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
+    }
 
     .content {
         padding: 40px 0;
+    }
+
+    .info {
+        width: 50%;
+        margin: 0 auto;
+        padding-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        @media (max-width: 1200px) {
+            width: 100%;
+        }
     }
 
     ul {
