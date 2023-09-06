@@ -5,18 +5,8 @@
       <p v-else-if="$fetchState.error">
         Coś poszło nie tak - spróbuj później
       </p>
-
       <template v-else>
         <SectionTitle subtitle="Kiedy do nas zajrzysz?" title="Grafik" />
-        <div class="select-wrapper">
-          <v-select
-            v-model="filter"
-            :options="labels"
-            :searchable="false"
-            class="style-chooser"
-            placeholder="Wybierz grupę"
-          />
-        </div>
         <div v-for="(date, key) in groupByDate(filteredItems)" :key="date.key">
           <div class="schedule__group-label">
             {{ $dayjs(key).format('DD MMMM YYYY') }}, {{ dayjs(date[0].date).format('dddd') }}
@@ -39,7 +29,6 @@
 </template>
 <script>
 
-import vSelect from 'vue-select'
 import dayjs from 'dayjs'
 import { scheduleConfig, scheduleGroupLabel, selectLabels } from '../config/schedule.js'
 import 'vue-select/dist/vue-select.css'
@@ -48,8 +37,7 @@ import SectionTitle from '../components/SectionTitle.vue'
 export default {
   name: 'Grafik',
   components: {
-    SectionTitle,
-    vSelect
+    SectionTitle
   },
   data () {
     return {
