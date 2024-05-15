@@ -33,10 +33,6 @@ export default [
     name: 'Oferta dla szkół'
   },
   {
-    path: '/edukacja',
-    name: 'Edukacja domowa'
-  },
-  {
     path: '/kontakt',
     name: 'Kontakt'
   }

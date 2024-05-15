@@ -3,11 +3,10 @@
     <SectionTitle subtitle="Letnie Warsztaty Twórcze dla Dzieci" title="Półkolonie" />
     <ContentWithImage filename="./kolonie.jpg">
       <p class="summary">
-        Zapraszamy dzieci w wieku od 6 do 12 lat na pełne kreatywnych przygód letnie warsztaty, które
-        odbędą się w terminach od 26 czerwca do 1 września 2023 roku. Nasze warsztaty plastyczne i ruchowe
-        oferują bogaty program, który rozwija wyobraźnię, umiejętności artystyczne i sprawność fizyczną
-        dzieci. Przez cały dzień zapewniamy opiekę, posiłki oraz wiele inspirujących zajęć w naszej przestronnej
-        pracowni i ogrodzie.
+        Zapraszamy dzieci w wieku od 6 do 14 lat na pełne kreatywnych przygód letnie warsztaty. Nasze
+        warsztaty plastyczne i ruchowe oferują bogaty program, który rozwija wyobraźnię, umiejętności
+        artystyczne i sprawność fizyczną dzieci. Przez cały dzień zapewniamy opiekę, posiłki oraz wiele
+        inspirujących zajęć w naszej przestronnej pracowni i ogrodzie.
       </p>
       <h2>Informacje o Warsztatach</h2>
       <ul>
@@ -22,22 +21,23 @@
         <div class="column">
           <h2>Warsztaty Plastyczne</h2>
           <ul>
+            <li>Ceramika</li>
             <li>Plener malarski i rysunkowy</li>
             <li>Landart czyli sztuka ziemi</li>
             <li>Cyjanotypia czyli jedna z najstarszych technik fotograficznych</li>
             <li>Ebru czyli malowanie na wodzie</li>
             <li>Linoryt</li>
             <li>Mydlarnia czyli jak się robi mydełka</li>
+            <li>Filcowanie na mokro</li>
+            <li>Płaskorzeźba</li>
           </ul>
         </div>
         <div class="column">
-          <h2>Warsztaty Ruchowe</h2>
+          <h2>Warsztaty Ruchowe i Muzyczne</h2>
           <ul>
-            <li>Taneczne (zumba)</li>
-            <li>Podchody leśne</li>
-            <li>Bushcraft</li>
-            <li>Przyrodnicze</li>
-            <li>Aquapark</li>
+            <li>Muzykoterapia</li>
+            <li>Codzienne porcja ruchu na świeżym powietrzu (gry zespołowe)</li>
+            <li>Całodzienne wyjście do lasu, ognisko, warsztaty plenerowe (przy sprzyjającej pogodzie).</li>
           </ul>
         </div>
       </div>

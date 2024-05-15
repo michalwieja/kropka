@@ -14,8 +14,8 @@
         </h3>
         <h3>Cena i dodatkowe informacje:</h3>
         <p>
-          Cena: 550 zł dla 6 osób wraz z solenizantem.<br>
-          Cena: 690 zł dla 10 osób wraz z solenizantem, powyżej 10 osób + 55 zł/kolejny uczestnik.<br>
+          Cena: 599 zł dla 6 osób wraz z solenizantem.<br>
+          Cena: 799 zł dla 10 osób wraz z solenizantem, powyżej 10 osób + 70 zł/kolejny uczestnik.<br>
           Dla dzieci od 4 roku życia.<br>
         </p>
         <h3>W cenie:</h3>
@@ -49,11 +49,11 @@
       </ContentWithImage>
       <div class="info">
         <h3>
-          Jeśli chcesz możesz wybrać dodatkowe opcje  takie jak:
+          Jeśli chcesz możesz wybrać dodatkowe opcje takie jak:
         </h3>
         <ul>
           <li>Ciasta/torty - możliwość zamówienia ciasta w kawałkach</li>
-          <li>Wniesienie własnego tortu/ciasta za opłatą 40 zł</li>
+          <li>Wniesienie własnego tortu/ciasta za opłatą 50 zł</li>
           <li>Świeżo wyciskany sok</li>
           <li>Sok z kartonu</li>
           <li>Herbata zimowa w dzbanku</li>

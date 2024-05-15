@@ -41,6 +41,12 @@
             <a href="tel:690 398 893">690 398 893</a>
           </h3>
         </div>
+        <div class="contact__row">
+          <PhoneIcon height="32" />
+          <h3>
+            <a href="tel:690 170 097">690 170 097</a>
+          </h3>
+        </div>
         <h2>Godziny otwarcia</h2>
         <h3>Wtorek 16:00-20:00</h3>
         <h3>Piątek 16:00-20:00</h3>
