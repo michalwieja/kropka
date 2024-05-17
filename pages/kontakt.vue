@@ -47,10 +47,6 @@
             <a href="tel:690 170 097">690 170 097</a>
           </h3>
         </div>
-        <h2>Godziny otwarcia</h2>
-        <h3>Wtorek 16:00-20:00</h3>
-        <h3>Piątek 16:00-20:00</h3>
-        <h3>Sobota i Niedziela 10:00-19:00</h3>
       </div>
     </div>
   </div>

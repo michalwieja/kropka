@@ -33,7 +33,7 @@
           </ul>
         </div>
         <div class="column">
-          <h2>Warsztaty Ruchowe i Muzyczne</h2>
+          <h2>Warsztaty Ruchowe i&nbsp;Muzyczne</h2>
           <ul>
             <li>Muzykoterapia</li>
             <li>Codzienne porcja ruchu na świeżym powietrzu (gry zespołowe)</li>

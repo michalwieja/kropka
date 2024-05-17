@@ -15,7 +15,7 @@
         <h3>Cena i dodatkowe informacje:</h3>
         <p>
           Cena: 599 zł dla 6 osób wraz z solenizantem.<br>
-          Cena: 799 zł dla 10 osób wraz z solenizantem, powyżej 10 osób + 70 zł/kolejny uczestnik.<br>
+          Cena: 799 zł dla 10 osób wraz z solenizantem, powyżej 10 osób + 69 zł/kolejny uczestnik.<br>
           Dla dzieci od 4 roku życia.<br>
         </p>
         <h3>W cenie:</h3>
